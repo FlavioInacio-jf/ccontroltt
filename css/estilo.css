@@ -1,60 +1,61 @@
 /* 
 ** Limpando formatações
 */
+
 *{
 	padding: 0px;
 	margin: 0px;
 }
-body{
-	font-family: Roboto,-apple-system,
-				 BlinkMacSystemFont,Segoe UI,
-				 Roboto,Oxygen,Ubuntu,Cantarell,
-				 Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
-	color: #ffffff;
+
+@font-face {
+	font: 'ubuntu';
+	src: url(../font/Ubuntu-Regular.woff) ;
 }
 
+@font-face {
+	font: 'roboto';
+	src: url(../font/Roboto-Light.woff) ;
+}
+
+
+body{
+	color: #ffffff;
+	font-family: ubuntu;
+}
 
 /*
 ** Formatação layout
 */
-#topo {
-	height: 170px;
+
+#container {
 	width: 100%;
+	height: 100%;
+}
+
+
+
+#topo {
+	width: 100%;
+	height:150px;
+	line-height: 3.5em;
 	font-size: 2.5em;
 	font-weight: 8;
 	text-align: center;
 	background: rgb(11, 77, 155);
 }
-#container {
-	width: 78%;
-	min-width: 1000px;
-	height: 670px;
-	border-radius: 4px;
-	margin: -71px auto;
-	box-shadow: rgba(0, 0, 0, 0.25) 4px 4px;
-}
-#area-esquerda{
+#area-primaria{
 	width: 17%; /* 200px - > 17% */
-	height: 670px;
+	height: 100%;
 	background: rgb(8, 103, 184);
-	font-size: 15px;
-	text-align: center;
-	font-weight: bold;
+	border: 1px solid red;
 	float: left;
-	position: relative;
-	border-radius: 4px 0px 0px 4px;
 }
-#area-usuario {
-	height: 71px;
-	border-bottom: 1px solid #000000;
-	background-size: 70px;
-}
-#conteudo {
-	width: 83%;
+
+#area-principal {
+	width: 100%;
 	background: #ffffff;
 	color: rgb(66, 66, 66);
-	border-radius: 0px 4px 4px 0px;
-	font: 14px;
+	border: 1px solid yellow;
 	position: relative;
 	float: left;
 }
@@ -65,26 +66,9 @@ body{
 	line-height: 70px;
 }
 
-#rodape-area-esquerda{
-	width: 98%;
-	height: 50px;
-	padding: 1%;
-	border-top: 1px solid #ffffff;
-	position: absolute;
-	top: 620px;
-}
+
 #rodape-area-conteudo{
-	width: 99%;
-	height: 100%;
-	padding-left: 1%;
-	height: 50px;
-	background: rgb(0, 0, 0, 0.05);
-	border-radius: 0px 0px 4px 0px;
-	border-top: 1px solid rgb(8, 103, 184);
-	color: rgba(0, 0, 0, 0.30);
-	position: absolute;
-	top: 620px;
-	clear: both;
+
 }
 
 /*
@@ -103,20 +87,7 @@ body{
 
 }
 
-.tipo-adm {
-	font-size: 10px;
-}
-.nome-usuario {
-	line-height: 50px;
-	font-size: 20px;
-}
 
-.title-quadrado {
-	margin-top: 15px;
-	font-size: 20px;
-	font-weight: bold;
-	line-height: 0px;
-}
 .quadrado:hover {
 	padding: 10px;
 	transition: 0.4s;
@@ -134,23 +105,7 @@ body{
 .roxo {
 	background: #8E44AD;
 }
-#area-menu li{	
-	padding: 10px;
-}
 
-#area-menu a:hover{	
-	padding-left: 20px;
-}
-
-#area-esquerda ul a{
-	display: block;
-	height: 100%;
-	width: 100%;
-	line-height: 50px;
-	color: #ffffff;
-	font-size: 20px;
-	box-sizing: border-box;
-}
 
 #home ul li a.home,
 #sensor ul li a.sensor,
@@ -159,59 +114,12 @@ body{
 	background: rgba(2, 140, 253, 0.548);
 }
 
-#area-menu li a {
-	border-bottom: 1px solid white;
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-#rodape-area-conteudo span{
-	float: right;
-	color: rgb(8, 103, 184);
-}
-#area-esquerda li img {	
-	position: relative;
-	top: 5px;
-	width: 15%;
-	height: 15%;
-}
-
-#area-usuario ul li img{
-	float: left;
-	position: relative;
-	top: 1px;
-	left: 10px;
-	height: 30%;
-	width: 35%;
-}
-
-
-
-h2{
-	padding-left: 3%; 
-}
-
 a{
 	text-decoration: none;
 }
 
 ul{
 	list-style-type: none;
-}
-p, form {
-	padding-left: 3%;
-	padding-top: 1%;
-}
-
-fieldset {
-	text-align: left;
-	width: 500px;
-	border: none;
-
-}
-input, textarea{
-	width: 400px;
-	padding: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 
