@@ -7,59 +7,77 @@
 	margin: 0px;
 }
 
-@font-face {
-	font: 'ubuntu';
-	src: url(../font/Ubuntu-Regular.woff) ;
+html, body {
+	height: 100%;
 }
 
-html {
-	height: 100%;
-}
 body{
-	height: 100%;
 	color: #ffffff;
 	font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
 }
-
 /*
 ** Formatação layout
 */
 
+
 #container {
 	width: 100%;
 	height: 100%;
-	border: 1px solid red;
-	
+	margin: 0 auto;
 }
+
+/* Formatando topo*/
 #topo {
-	width: 90%;
-	padding:  0 5% ;
+	width: 93%;
+	height: 8%;
+	padding: 0 3.5%;
 	font-size: 1.3em;
 	text-align: left;
-	background: rgb(11, 77, 155);
-	
+	position: relative;
+	background: rgb(11, 77, 155);	
 }
 
 #area-usuario {
-	line-height: 50px;
-	right: 0;
+	height: 100%;
+	position: absolute;
 	top: 0;
-	
+	right: 0;
+	border: 1px solid red;
 }
+
+#area-usuario ul li {
+	width: 50px;
+	height: 100%;
+	float: left;
+	padding: 0 20px;
+}
+
+.icons {
+	color: #ffffff;
+}
+
+ul{
+	list-style-type: none;
+}
+
+/* Fim Formatando topo*/
 #area-secundaria{
 	width: 17%;
-	height: 100%;
-	background: rgb(2, 17, 31);
+	height: 84%;
 	float: left;
+	background: rgb(2, 17, 31);
 }
 
 #area-principal {
 	width: 83%;
-	height: 100%;
-	background:rgb(8, 103, 184);
+	height: 84%;
 	float: left;
+	background:rgb(8, 103, 184);
 }
 #area-rodape {
+	width: 93%;
+	height: 8%;
+	padding: 0 3.5%;
 	clear: both;
 	background: rgb(2, 17, 31);;
 }
@@ -93,13 +111,9 @@ body{
 #sobre ul li a.sobre {
 	background: rgba(2, 140, 253, 0.548);
 }
-
 a{
 	text-decoration: none;
 }
 
-ul{
-	list-style-type: none;
-}
 
 
