@@ -42,22 +42,32 @@ body{
 	position: absolute;
 	top: 0;
 	right: 0;
-	border: 1px solid red;
+}
+
+#area-usuario ul {
+	height: 100%;
 }
 
 #area-usuario ul li {
-	width: 50px;
-	height: 100%;
 	float: left;
 	padding: 0 20px;
+	text-align: center;
 }
 
 .icons {
 	color: #ffffff;
 }
 
+#area-usuario li a{
+	line-height: 63px;
+}
+
 ul{
 	list-style-type: none;
+}
+
+a {
+	color: #ffffff;
 }
 
 /* Fim Formatando topo*/
