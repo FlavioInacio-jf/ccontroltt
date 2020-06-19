@@ -26,7 +26,9 @@ body{
 	margin: 0 auto;
 }
 
-/* Formatando topo*/
+/* 
+Formatando topo
+*/
 #topo {
 	width: 93%;
 	height: 8%;
@@ -68,45 +70,73 @@ ul{
 
 a {
 	color: #ffffff;
+	text-decoration: none;
 }
 
-/* Fim Formatando topo*/
-#area-secundaria{
+/* 
+Formatando menu lateral 
+*/
+
+#area-secundaria {
 	width: 17%;
-	height: 84%;
+	height: 92%;
 	float: left;
-	background: rgb(2, 17, 31);
+	font-size: 1.3em;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	background: rgb(0, 0, 0);
 }
+#area-secundaria ul {
+	padding-top: 2%;
+}
+
+#area-secundaria ul a {
+	display: block;
+	line-height: 50px;
+	border-bottom: 1px solid #ffffff;
+	border-top: 1px solid #ffffff5e;
+}
+
+#area-secundaria ul li {
+	margin-bottom: 10px;
+}
+
+
+
+/* 
+Formatando erea principal
+*/
+
 
 #area-principal {
 	width: 83%;
-	height: 84%;
+	height: 92%;
 	float: left;
 	background:rgb(8, 103, 184);
 }
-#area-rodape {
-	width: 93%;
-	height: 8%;
-	padding: 0 3.5%;
-	clear: both;
-	background: rgb(2, 17, 31);;
+
+#conteudo{
+	height: 98%;
+	margin: 0.5%;
+	border: 1px solid red;
 }
 
+#area-titulo-conteudo h2 {
+	padding: 15px;
+}
 
 /*
 ** Formatação em geral
 */
 .quadrado{
-	width: 20%;
-	height: 20%;
-	margin-top: 5%;
-	margin-left: 3%;
+	width: 35%;
+	height: 35%;
 	border-radius: 10px;
+	background: white;
+	color: rgb(8, 103, 184);
 	float: left;
-	color: #ffffff;
 	text-align: center;
-	line-height: 200px;
-
 }
 
 
@@ -119,11 +149,10 @@ a {
 #sensor ul li a.sensor,
 #atuadores ul li a.atuadores,
 #sobre ul li a.sobre {
-	background: rgba(2, 140, 253, 0.548);
+	background: rgb(255, 255, 255);
+	color: #000000;
 }
-a{
-	text-decoration: none;
-}
+
 
 
 
