@@ -36,7 +36,7 @@ Formatando topo
 	font-size: 1.3em;
 	text-align: left;
 	position: relative;
-	background: rgb(11, 77, 155);	
+	background: rgb(0, 0, 0);	
 }
 
 #area-usuario {
@@ -85,7 +85,7 @@ Formatando menu lateral
 	position: relative;
 	text-align: center;
 	text-transform: uppercase;
-	background: rgb(0, 0, 0);
+	background: rgb(11, 77, 155);
 }
 #area-secundaria ul {
 	padding-top: 2%;
@@ -119,30 +119,27 @@ Formatando erea principal
 #conteudo{
 	height: 98%;
 	margin: 0.5%;
-	border: 1px solid red;
+
 }
 
 #area-titulo-conteudo h2 {
 	padding: 15px;
+	text-transform: uppercase;
 }
 
 /*
 ** Formatação em geral
 */
 .quadrado{
-	width: 35%;
-	height: 35%;
+	width: 300px;
+	height: 300px;
+	margin-left: 10px;
+	margin-bottom: 10px;
 	border-radius: 10px;
 	background: white;
 	color: rgb(8, 103, 184);
 	float: left;
 	text-align: center;
-}
-
-
-.quadrado:hover {
-	padding: 10px;
-	transition: 0.4s;
 }
 
 #home ul li a.home,
