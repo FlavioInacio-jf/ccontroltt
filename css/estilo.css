@@ -81,14 +81,14 @@ Formatando menu lateral
 	width: 17%;
 	height: 92%;
 	float: left;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	position: relative;
 	text-align: center;
 	text-transform: uppercase;
 	background: rgb(11, 77, 155);
 }
 #area-secundaria ul {
-	padding-top: 2%;
+	padding-top: 53px;
 }
 
 #area-secundaria ul a {
@@ -100,6 +100,19 @@ Formatando menu lateral
 
 #area-secundaria ul li {
 	margin-bottom: 10px;
+}
+
+#area-secundaria li.exit {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	margin: 0;
+}
+
+#area-secundaria a:hover {
+	padding-left: 40px;
+	transition: 0.4s;
+	background: rgba(5, 1, 255, 0.247);
 }
 
 
@@ -118,14 +131,16 @@ Formatando erea principal
 
 #conteudo{
 	height: 98%;
-	margin: 0.5%;
-
+	overflow: auto;
 }
 
 #area-titulo-conteudo h2 {
-	padding: 15px;
+	padding: 10px;
+	border-bottom: 1px solid #ffffff46 ;
 	text-transform: uppercase;
 }
+
+
 
 /*
 ** Formatação em geral
@@ -133,8 +148,20 @@ Formatando erea principal
 .quadrado{
 	width: 300px;
 	height: 300px;
-	margin-left: 10px;
-	margin-bottom: 10px;
+	margin: 8px;
+	margin-right: 0;
+	border-radius: 10px;
+	background: white;
+	color: rgb(8, 103, 184);
+	float: left;
+	text-align: center;
+}
+
+.grafico {
+	width: 608px;
+	height: 300px;
+	margin: 8px;
+	margin-right: 0;
 	border-radius: 10px;
 	background: white;
 	color: rgb(8, 103, 184);
