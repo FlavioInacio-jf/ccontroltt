@@ -56,6 +56,10 @@ Formatando topo
 	text-align: center;
 }
 
+#area-usuario  li a i:hover {
+	color: #ffffff94;
+}
+
 .icons {
 	color: #ffffff;
 }
@@ -115,6 +119,18 @@ Formatando menu lateral
 	background: rgba(5, 1, 255, 0.247);
 }
 
+#home ul li a.home,
+#sensor ul li a.sensor,
+#atuadores ul li a.atuadores,
+#sobre ul li a.sobre, 
+
+#home ul li a.home i,
+#sensor ul li a.sensor i,
+#atuadores ul li a.atuadores i,
+#sobre ul li a.sobre i {
+	background: rgb(255, 255, 255);
+	color: #000000;
+}
 
 
 /* 
@@ -169,13 +185,6 @@ Formatando erea principal
 	text-align: center;
 }
 
-#home ul li a.home,
-#sensor ul li a.sensor,
-#atuadores ul li a.atuadores,
-#sobre ul li a.sobre {
-	background: rgb(255, 255, 255);
-	color: #000000;
-}
 
 
 
