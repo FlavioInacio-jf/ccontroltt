@@ -30,7 +30,8 @@ body{
 Formatando topo
 */
 #topo {
-	width: 93%;
+	box-sizing: border-box;
+	width: 100%;
 	height: 8%;
 	padding: 0 3.5%;
 	font-size: 1.3em;
@@ -40,10 +41,14 @@ Formatando topo
 }
 
 #area-usuario {
+	box-sizing: border-box;
 	height: 100%;
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+.user {
+	margin-top: 10px;
 }
 
 #area-usuario ul {
@@ -92,14 +97,14 @@ Formatando menu lateral
 	background: #0b4d9b;
 }
 #area-secundaria ul {
-	padding-top: 53px;
+	margin-top: 52px;
 }
 
 #area-secundaria ul a {
 	display: block;
 	line-height: 50px;
 	border-bottom: 1px solid #ffffff;
-	border-top: 1px solid #ffffff5e;
+	border-top: 1px solid rgba(255, 255, 255, 0.452);
 }
 
 #area-secundaria ul li {
@@ -153,7 +158,7 @@ Formatando erea principal
 
 #area-titulo-conteudo h2 {
 	padding: 10px;
-	border-bottom: 1px solid #ffffff46 ;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.452); ;
 	text-transform: uppercase;
 }
 
