@@ -36,7 +36,7 @@ Formatando topo
 	font-size: 1.3em;
 	text-align: left;
 	position: relative;
-	background:  #22142b;	
+	background:  #001D5F;	
 }
 
 #area-usuario {
@@ -57,7 +57,7 @@ Formatando topo
 }
 
 #area-usuario  li a i:hover {
-	color: #ffffff94;
+	color: #9BBAFF;
 }
 
 .icons {
@@ -89,7 +89,7 @@ Formatando menu lateral
 	position: relative;
 	text-align: center;
 	text-transform: uppercase;
-	background: rgb(11, 77, 155);
+	background: #0b4d9b;
 }
 #area-secundaria ul {
 	padding-top: 53px;
@@ -104,6 +104,7 @@ Formatando menu lateral
 
 #area-secundaria ul li {
 	margin-bottom: 10px;
+	
 }
 
 #area-secundaria li.exit {
@@ -116,7 +117,7 @@ Formatando menu lateral
 #area-secundaria a:hover {
 	padding-left: 40px;
 	transition: 0.4s;
-	background: rgba(5, 1, 255, 0.247);
+	background: #001D5F;
 }
 
 #home ul li a.home,
@@ -128,7 +129,7 @@ Formatando menu lateral
 #sensor ul li a.sensor i,
 #atuadores ul li a.atuadores i,
 #sobre ul li a.sobre i {
-	background: rgb(255, 255, 255);
+	background: #E7EFFF;
 	color: #000000;
 }
 
@@ -142,7 +143,7 @@ Formatando erea principal
 	width: 83%;
 	height: 92%;
 	float: left;
-	background:rgb(8, 103, 184);
+	background:#007ABE;
 }
 
 #conteudo{
@@ -167,7 +168,7 @@ Formatando erea principal
 	margin: 8px;
 	margin-right: 0;
 	border-radius: 10px;
-	background: white;
+	background: #ffffff;
 	color: rgb(8, 103, 184);
 	float: left;
 	text-align: center;
