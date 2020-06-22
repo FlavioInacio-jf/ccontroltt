@@ -33,32 +33,47 @@ Formatando topo
 	box-sizing: border-box;
 	width: 100%;
 	height: 8%;
-	padding: 0 3.5%;
+	padding: 0;
 	font-size: 1.3em;
 	text-align: left;
 	position: relative;
 	background:  #001D5F;	
 }
 
-#area-usuario {
+#titulo {
+	height: 100%;
+	letter-spacing: 5px;
+}
+
+#titulo h1 {
 	box-sizing: border-box;
+	height: 100%;
+	width: 70%;
+	margin: 0;
+	padding-left: 45px;
+	padding-top: 5px;
+}
+
+#area-usuario {
+	width: 30%;
 	height: 100%;
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 0;	
 }
 .user {
-	margin-top: 10px;
+
 }
 
 #area-usuario ul {
+	box-sizing: border-box;
 	height: 100%;
+	width: 100%;
 }
 
 #area-usuario ul li {
-	float: left;
+	float: right;
 	padding: 0 20px;
-	text-align: center;
 }
 
 #area-usuario  li a i:hover {
@@ -97,7 +112,7 @@ Formatando menu lateral
 	background: #0b4d9b;
 }
 #area-secundaria ul {
-	margin-top: 52px;
+	margin-top: 48px;
 }
 
 #area-secundaria ul a {
@@ -158,7 +173,7 @@ Formatando erea principal
 
 #area-titulo-conteudo h2 {
 	padding: 10px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.452); ;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.452);
 	text-transform: uppercase;
 }
 
