@@ -37,7 +37,7 @@ body{
 #caixa {
 	box-sizing: border-box;
 	width: 350px;
-	height: 350px;
+	height: 450px;
 	padding: 20px;
 	position: absolute;
 	top: 0;
@@ -71,36 +71,23 @@ i {
 	border: none;
 }
 
-.area-input #login {
+.area-input #termos {
+    width: 70%;
+    height: 70%;
+    padding: 0px;
+    float: left;
+}
+
+.area-input #cadastar {
 	background: #0b4d9b;
 	color: #ffffff;
 	text-transform: uppercase;
 }
-#login:hover {
+#cadastar:hover {
 	background: #007ABE;
 }
-
-
-#cadastro {
-	margin-top: 15px;
-	border-top: 1px solid rgba(0, 29, 95, 0.341);
-	text-align: center;
+p {
+    float: right;
 }
-
- p {
-	 margin-top: 15px;
- }
-
-a {
-	text-decoration: none;
-	color: #000000;
-}
-
-a:hover {
-	color: #0b4d9b;
-}
-
-
-
 
 
