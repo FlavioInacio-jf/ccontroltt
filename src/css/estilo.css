@@ -148,8 +148,8 @@ Formatando menu lateral
 
 #area-secundaria a:hover {
 	padding-left: 40px;
-	transition: 0.4s;
 	background: #001D5F;
+	transition: all 0.8s ;
 }
 
 #home ul li a.home,
