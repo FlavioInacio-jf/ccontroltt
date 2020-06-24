@@ -60,7 +60,7 @@ i {
 	height: 40px;
 	border: 1px solid rgba(0, 29, 95, 0.341);
 	border-radius: 5px;
-	margin-bottom: 15px;
+	margin-top: 15px;
 }
 .area-input input{
 	box-sizing: border-box;
@@ -86,6 +86,10 @@ i {
 	border-top: 1px solid rgba(0, 29, 95, 0.341);
 	text-align: center;
 }
+
+ p {
+	 margin-top: 15px;
+ }
 
 a {
 	text-decoration: none;
