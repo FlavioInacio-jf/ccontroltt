@@ -74,14 +74,19 @@ i {
 .area-input #termos {
     width: 70%;
     height: 70%;
-    padding: 0px;
-    float: left;
+	padding: 0px;
+	margin-left: -95px;
+	margin-top: 7px;
+}
+label {
+	margin-left: -95px;
 }
 
 .area-input #cadastar {
 	background: #0b4d9b;
 	color: #ffffff;
 	text-transform: uppercase;
+	
 }
 #cadastar:hover {
 	background: #007ABE;
