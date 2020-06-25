@@ -31,15 +31,29 @@ body{
 /* 
 Formatando topo
 */
-#topo {
+header {
 	box-sizing: border-box;
-	width: 83%;
+	width: 100%;
 	height: 8%; 
-	float:right;
 	padding: 0;
-	font-size: 20px ;
-	position: relative;;
+	font-size: 20px;
+	position: relative;
 	background:  #001D5F;	
+}
+
+#titulo {
+	width: 70%;
+	height: 100%; 
+}
+
+#titulo h1 {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding-left: 50px;
+	line-height: 60px;
+	font-size: 1.8em;
+	letter-spacing: 5px;
 }
 
 #area-usuario {
@@ -92,9 +106,9 @@ Formatando menu lateral
 
 
 
-#area-secundaria {
+aside {
 	width: 17%;
-	height: 100%;
+	height: 92%;
 	float: left;
 	font-size: 1.1em;
 	position: relative;
@@ -104,49 +118,30 @@ Formatando menu lateral
 	
 }
 
-#titulo {
-	box-sizing: border-box;
-	background: #001D5F;
-	width: 100%;
-	height: 8%; 
-	position: absolute;
-	top: 0;
-	font-size: 1.4em;
-	letter-spacing: 5px;
+aside ul {
+	margin-top: 18.5%;
 }
 
-#titulo h1 {
-	width: 100%;
-	height: 100%;
-	line-height: 0.5em;
-	font-size: 1.4em;
-	
-}
-
-#area-secundaria ul {
-	margin-top: 42.4%;
-}
-
-#area-secundaria ul a {
+aside ul a {
 	display: block;
 	line-height: 50px;
 	border-bottom: 1px solid #ffffff;
 	border-top: 1px solid rgba(255, 255, 255, 0.452);
 }
 
-#area-secundaria ul li {
+aside ul li {
 	margin-bottom: 10px;
 	
 }
 
-#area-secundaria li.exit {
+aside li.exit {
 	position: absolute;
 	width: 100%;
 	bottom: 0;
 	margin: 0;
 }
 
-#area-secundaria a:hover {
+aside a:hover {
 	padding-left: 40px;
 	background: #001D5F;
 	transition: all 0.8s ;
@@ -171,7 +166,7 @@ Formatando erea principal
 */
 
 
-#area-principal {
+article {
 	width: 83%;
 	height: 92%;
 	float: left;
