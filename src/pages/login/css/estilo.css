@@ -37,7 +37,7 @@ body{
 #caixa {
 	box-sizing: border-box;
 	width: 350px;
-	height: 320px;
+	height: 370px;
 	padding: 20px;
 	position: absolute;
 	top: 0;
@@ -93,6 +93,13 @@ a {
 
 a:hover {
 	color: #0b4d9b;
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	color: rgba(0, 29, 95, 0.829);
+	padding: 10px;
 }
 
 
