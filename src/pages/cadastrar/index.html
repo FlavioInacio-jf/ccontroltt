@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Login</title>
+        <title>Cadastrar</title>
         <meta charset="utf-8">
 
 		<!-- Normalize CSS-->
@@ -16,30 +16,26 @@
         <div id="container">
             <div id="area-principal">
                <div id="caixa">
-                    <div id="icone">
-                        <i class="fa fa-user-circle-o fa-5x" aria-hidden="true"></i>
-                    </div>
-
                     <form>
                         <div class="area-input">
-                            <input type="email" placeholder="Informe o nome" id="email">    
+                            <input type="text" placeholder="Informe o nome" id="email" required autofocus>    
                         </div>
                         
                         <div class="area-input"> 
-                            <input type="password" placeholder="Informe o e-mail" id="senha">    
+                            <input type="email" placeholder="Informe o e-mail" id="senha" required>    
                         </div>
 
                         <div class="area-input"> 
-                            <input type="password" placeholder="informe a Senha" id="senha">    
+                            <input type="password" placeholder="informe a Senha" id="senha" required>    
                         </div>
 
                         <div class="area-input"> 
-                            <input type="password" placeholder="informe a senha novamente" id="senha">    
+                            <input type="password" placeholder="informe a senha novamente" id="senha" required>    
                         </div>
 
                         <div class="area-input" style="border: none;" > 
-                            <input type="checkbox" id="termos">  
-                            <p>Aceita as <a href="">licensa</a></p>
+                            <input type="checkbox" id="termos" required>  
+                            <label>Aceitar os termos de <a href="">licensa</a></p></label>
                             
                         </div>
 
