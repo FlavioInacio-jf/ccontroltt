@@ -36,11 +36,11 @@ body{
 }
 
 #caixa {
+	flex-basis: 350px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-content: stretch;
-	width: 350px;
+	justify-content: flex-s;
+	align-items: center;
 	height: 350px;
 	padding: 20px;
 	background: #ffffff;
@@ -49,14 +49,18 @@ body{
 }
 
 .area-input {
+	display: flex;
+
 	width: 100%;
 	height: 40px;
 	border: 1px solid rgba(0, 29, 95, 0.341);
 	border-radius: 5px;
+	margin-bottom: 20px;
 }
 .area-input input{
 	width: 100%;
 	height: 100%;
+	padding: 0 10px;
 	border-radius: 5px;
 	border: none;
 }
@@ -71,7 +75,7 @@ body{
 }
 
 #cadastro {
-	flex: 100%;
+	
 	border-top: 1px solid rgba(0, 29, 95, 0.341);
 	text-align: center;
 }
@@ -86,8 +90,10 @@ a:hover {
 }
 
 h2 {
-	flex: 100%;
+	text-align: center;
+
 	font-size: 2em;
+	border: 1px solid red;
 	color: rgba(0, 29, 95, 0.829);
 }
 
