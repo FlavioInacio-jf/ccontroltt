@@ -22,6 +22,8 @@ body{
 */
 
 #container {
+	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(to bottom,#001D5F, #0b4d9b, #007ABE);
@@ -48,6 +50,7 @@ header {
 form#form-login {
 	display: flex;
 	flex-wrap: wrap;
+	position: relative;
 }
 
 form#form-login div {
@@ -73,20 +76,55 @@ form#form-login div #login {
 	color: #ffffff;
 }
 
-form input[type="submit"]:hover {
+form#form-login div #login:hover {
 	background: #007ABE;
 }
 
 /* 
 Formatando area principal
 */
-
-h2 {
+article {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
 	width: 100%;
+	height: 500px;
+	padding: 0 20px;
+	background: transparent;
+	color: #ffffff;
+}
+section#area-sobre {
+	box-sizing: border-box;
+	width: 30%;
+}
+
+section#area-cadastrar {
+	position: absolute;
+	right: 18.3%;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+	width: 25%;
+	box-sizing: border-box;
+	background: #001D5F;
+	color: #ffffff;
+	border-radius: 20px;
+}
+
+section#area-cadastrar h2 {
+	width: 100%;
+	margin-bottom: 5px;
 	text-align: center;
-	margin-bottom: 20px;
 	font-size: 2em;
-	color: rgba(0, 29, 95, 0.829);
+	color: #ffffff;
+}
+section#area-cadastrar p {
+	margin-bottom: 20px;
 }
 
 a {
@@ -94,19 +132,7 @@ a {
 	color: #007ABE;
 }
 
-article {
-	box-sizing: border-box;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: flex-end;
-	width: 400px;
-	height: 400px;
-	padding: 20px;
-	background-color: #ffffff;
-	box-shadow: 10px 10px  10px #0b4d9b;
-	border-radius: 20px;
-}
+
 
 .area-input {
 	flex: 1, 2, 360px;
