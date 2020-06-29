@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Cadastrar</title>
+        <title>Estufa - entre ou cadastre-se</title>
         <meta charset="utf-8">
 
 		<!-- Normalize CSS-->
@@ -14,42 +14,65 @@
 
     <body>
         <div id="container">
-            <div id="area-principal">
-               <div id="caixa">
+            <header>
+                <h1 id="titulo">ESTUFA</h1>
+                <form id="form-login">
+                    <div>
+                        <input type="email" placeholder="Informe o email" id="email" required>    
+                    </div>
+
+                    <div> 
+                        <input type="password" placeholder="Informe a senha" id="senha" required>         
+                    </div>
+
+                    <div style="width: 70px; margin: 0;" >
+                        <input type="submit"  value="Entrar" id="login">
+                    </div>
+                </form>
+			</header>
+            <article>
+                <section id="area-sobre">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia eum dolore maxime culpa rerum. Assumenda inventore mollitia a ipsum voluptatum iste blanditiis, consequuntur reprehenderit officiis aut molestias eos sit unde.
+                    </p>
+                </section>
+
+                <section id="area-cadastrar">
                     <h2>Cadastre-se</h2>
                     <p>
-                        Crie um conta rápido e fácil
+                        É rápido e fácil
                     </p>
                     <form>
                         <div class="area-input">
                             <input type="text" placeholder="Informe o nome" id="email" required autofocus>    
                         </div>
-                        
+                            
                         <div class="area-input"> 
                             <input type="email" placeholder="Informe o e-mail" id="senha" required>    
                         </div>
-
+        
                         <div class="area-input"> 
                             <input type="password" placeholder="informe a Senha" id="senha" required>    
                         </div>
-
+    
                         <div class="area-input"> 
                             <input type="password" placeholder="informe a senha novamente" id="senha" required>    
                         </div>
-
-                        <div class="area-input" style="border: none;" > 
+    
+                        <div class="area-termos area-input"> 
                             <input type="checkbox" id="termos" required>  
-                            <label>Aceitar os termos de <a href="">licensa</a></p></label>
-                            
+                            <label>
+                                Aceitar os termos de 
+                                <a href="">licensa</a>
+                            </label>        
                         </div>
-
+    
                         <div class="area-input" style="border: none;">
                             <input type="submit"  value="Cadastrar" id="cadastar">
                         </div>
                     </form>
-                </div> 
-            </div>
-              
+                </section>
+            </article>   
         </div>
     </body>
 
