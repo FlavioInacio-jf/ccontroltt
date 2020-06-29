@@ -1,0 +1,149 @@
+/* 
+** Limpando formatações
+*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body {
+	height: 100%;
+}
+
+body{
+	font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+	color: rgb(0, 0, 0);
+	background: #007ABE;
+	box-sizing: border-box;
+}
+/*
+** Formatação layout
+*/
+
+#container {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom,#001D5F, #0b4d9b, #007ABE);
+	border-radius: 0 0 100% 100%;
+}
+
+/* 
+Formatando Header 
+*/
+header {
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 8%;
+	
+	background:  #001D5F;	
+	color: #ffffff;
+	border-bottom: 1px solid rgba(11, 76, 155, 0.534);
+    
+}
+
+form#login {
+	display: flex;
+}
+
+form#login div {
+	width: 150px;
+	height: 25px;
+	border: 1px solid rgba(32, 47, 83, 0.341);
+}
+
+form#login div input {
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 10px;
+	border: none;
+}
+
+form#login div input[type = "submit"] {
+	height: 100%;
+	width: 50%;
+	box-sizing: border-box;
+	padding-left: 10px;
+	border: none;
+}
+
+/* 
+Formatando area principal
+*/
+
+h2 {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 2em;
+	color: rgba(0, 29, 95, 0.829);
+}
+
+a {
+	text-decoration: none;
+	color: #007ABE;
+}
+
+article {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+	width: 400px;
+	height: 400px;
+	padding: 20px;
+	background-color: #ffffff;
+	box-shadow: 10px 10px  10px #0b4d9b;
+	border-radius: 20px;
+}
+
+.area-input {
+	flex: 1, 2, 360px;
+	width: 360px;
+	height: 40px;
+	border: 1px solid rgba(0, 29, 95, 0.341);
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.area-input input{
+	width: 100%;
+	height: 100%;
+	padding: 0 10px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	border: none;
+}
+
+.area-termos {
+	display: flex;
+	flex-wrap: wrap;
+	width: 360px;
+	height: 40px;
+	justify-content: space-between;
+}
+
+#cadastro {
+	width: 100%;
+	box-sizing : border-box;
+	text-align: center;
+	border-top: 1px solid rgba(0, 29, 95, 0.341);
+	padding-top: 10px;
+}
+
+p {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
