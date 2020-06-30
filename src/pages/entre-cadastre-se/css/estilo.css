@@ -38,6 +38,7 @@ header {
 	box-sizing: border-box;
 	justify-content: space-around;
 	align-items: center;
+	align-content: space-between;
 	width: 100%;
 	height: 8%;
 	
@@ -76,6 +77,10 @@ form#form-login div #login {
 	color: #ffffff;
 }
 
+form#form-login label {
+	height: 10px;
+}
+
 form#form-login div #login:hover {
 	background: #007ABE;
 }
@@ -90,28 +95,50 @@ article {
 	justify-content: flex-start;
 	align-items: center;
 	width: 100%;
-	height: 500px;
+	height: 92%;
 	padding: 0 20px;
 	background: transparent;
 	color: #ffffff;
 }
+
+/* 
+Formatando area sobre
+*/
+
 section#area-sobre {
 	box-sizing: border-box;
-	width: 30%;
+	padding: 0 20px;
+	width: 600px;
+	height: 500px;
 }
+section#area-sobre h2 {
+	margin-bottom: 15px;
+	font-size: 2em;
+}
+
+section#area-sobre p {
+	text-align: justify;
+	margin-bottom: 10px;
+	
+}
+
+/* 
+Formatando area cadastro
+*/
 
 section#area-cadastrar {
 	position: absolute;
-	right: 18.3%;
-
+	right: 17.2%;
+	height: 500px;
+	width: 400px;
+	
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-
-	width: 25%;
+	
 	box-sizing: border-box;
-	background: #001D5F;
+	background: rgba(0, 29, 95, 0.541);
 	color: #ffffff;
 	border-radius: 20px;
 }
@@ -127,18 +154,16 @@ section#area-cadastrar p {
 	margin-bottom: 20px;
 }
 
-a {
+form label a {
 	text-decoration: none;
-	color: #007ABE;
+	color: #ffffff;
 }
 
 
-
-.area-input {
+form#form-cadastrar div {
 	flex: 1, 2, 360px;
 	width: 360px;
 	height: 40px;
-	border: 1px solid rgba(0, 29, 95, 0.341);
 	border-radius: 5px;
 	margin-bottom: 20px;
 }
@@ -146,21 +171,24 @@ a {
 .area-termos {
 	display: flex;
 	flex-wrap: wrap;
-	width: 360px;
-	height: 40px;
-	justify-content: space-between;
+	justify-content: flex-start;
+	align-items: center;
 }
 
-#cadastro {
+#termos {
+	width: 30px;
+}
+.area-termos label {
+	margin-left: 10px;
+}
+
+form#form-cadastrar input#cadastro {
 	width: 100%;
-	box-sizing : border-box;
-	text-align: center;
-	border-top: 1px solid rgba(0, 29, 95, 0.341);
-	padding-top: 10px;
+	background: #0b4d9b;
+	color: #ffffff;
 }
-
-p {
-	margin-top: 10px;
+form#form-cadastrar div #cadastro:hover {
+	background: #007ABE;
 }
 
 
