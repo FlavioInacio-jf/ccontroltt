@@ -16,29 +16,24 @@ body {
 #container {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
     align-items: stretch;
+    align-content: stretch;
 }
 
 /*Formatação TOP*/
 header {
-    flex: 100%;
+    flex: 83%;
     height: 8%;
     display: flex;
     align-items: center;
+    order: 1;
     background:  #001D5F;	
-    justify-content: space-between;
-}
-
-h1#titulo {
-    display: flex;
-    font-size: 1.8em;
-    padding-left: 20px;
-    letter-spacing: 5px;
+    justify-content: flex-end;
 }
 
 nav#area-usuario ul {
     display: flex;
+    flex-wrap: wrap;
     margin-right: 10px;
     align-items: center;
 }
@@ -90,7 +85,13 @@ aside {
 	text-transform: uppercase;
     background: #0b4d9b;
     font-size: 1.1em;
-    
+    order: -1;
+}
+
+h1#titulo {
+    margin-top: 0;
+    font-size: 1.8em;
+    letter-spacing: 5px;
 }
 
 aside ul {
@@ -140,6 +141,7 @@ Formatando erea principal
 
 main {
     flex: 83%;
+    order: 2;
 	background:#007ABE;
 }
 
@@ -149,6 +151,7 @@ article{
     flex-direction: row;
     justify-content: space-around;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 #title-article {

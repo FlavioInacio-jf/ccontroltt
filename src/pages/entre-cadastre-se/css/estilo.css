@@ -51,14 +51,13 @@ header {
 form#form-login {
 	display: flex;
 	flex-wrap: wrap;
-	position: relative;
 }
 
 form#form-login div {
 	width: 150px;
 	height: 25px;
 	margin-right: 20px;
-	border-radius: 10px;
+	border-radius: 2px;
 	border: 1px solid rgba(32, 47, 83, 0.341);
 }
 
@@ -68,7 +67,7 @@ input {
 	box-sizing: border-box;
 	padding-left: 10px;
 	border: none;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 
 form#form-login div #login {
@@ -92,7 +91,7 @@ article {
 	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: center;
 	width: 100%;
 	height: 92%;
@@ -113,7 +112,7 @@ section#area-sobre {
 }
 section#area-sobre h2 {
 	margin-bottom: 15px;
-	font-size: 2em;
+	text-align: left;
 }
 
 section#area-sobre p {
@@ -128,7 +127,7 @@ Formatando area cadastro
 
 section#area-cadastrar {
 	position: absolute;
-	right: 17.2%;
+	right: 17.5%;
 	height: 500px;
 	width: 400px;
 	
@@ -140,18 +139,14 @@ section#area-cadastrar {
 	box-sizing: border-box;
 	background: rgba(0, 29, 95, 0.541);
 	color: #ffffff;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
-section#area-cadastrar h2 {
+h2 {
 	width: 100%;
-	margin-bottom: 5px;
 	text-align: center;
 	font-size: 2em;
 	color: #ffffff;
-}
-section#area-cadastrar p {
-	margin-bottom: 20px;
 }
 
 form label a {
