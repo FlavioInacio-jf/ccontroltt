@@ -3,46 +3,47 @@
 	<head>
 		<title>Estufa - Pagina Inícial</title>
 		<meta charset="utf-8">
-		<!-- Bootstrap -->
-		<link rel="stylesheet" href="../../css/bootstrap.min.css">
+		<!-- Normalize CSS-->
+		<link rel="stylesheet" type="text/css" href="../../css/normalize.css">
 
 		<link rel="stylesheet" type="text/css" href="../../css/estilo.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!--Fonts-->
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap" rel="stylesheet">
 	</head>
 	<body class="home">
 		<!--Inicio Container-->	
-		<div class="container-fluid h-100">
-			<header class="bg-primary">
-				<nav class="nav navbar-expand-md bg-primary navbar-light ">
-					<a href="" class="navbar-brand text-uppercase font-weight-bold text-light">Estufa</a>
+		<div id="container">
+			<header>
+				<h1 id="title-header">
+					<a href="">ESTUFA</a>	
+				</h1>
 
-					<ul class="navbar-nav ml-auto">	
-						<li class="nav-item dropdown">
-							<a href="#" class="nav-link" data-toggle="dropdown">
-								Flávio da Silva Inácio	
-							</a>
-							<!--Dropdowm-->
-							<div class="dropdown-menu">
-								<a href="" class="dropdown-item">
-									Configurações	
-								</a>
-
-								<a href="" class="bi dropdown-item">
-									Sair
-								</a>	
-							</div>	
-						</li>
-						
-						<li class="nav-item">
-							<a href="#" class="nav-link">
-								refresh	
-							</a>		
-						</li>
-
-						<li class="nav-item ">
-							<a href="#" class="nav-link">
-								status
+				<nav id="nav-user">
+					<ul class="list-nav-user">
+						<li class="wifi-icon">
+							<a href="#">
+								<i class="fa fa-wifi fa-2x"> </i>
 							</a>	
 						</li>
+
+						<li class="icon-user">
+							<a href="#">
+								<i class="fa fa-user-circle fa-2x"> </i>
+							</a>	
+							<ul class="dropdown-icon-user">
+								<li>
+									<a href=""> Meu perfil</a>
+								</li>
+
+								<li>
+									<a href="">Configurações</a>
+								</li>
+							</ul>
+						</li>
+
 					</ul>
 				</nav>
 			</header>
