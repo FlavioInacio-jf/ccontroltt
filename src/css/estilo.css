@@ -22,8 +22,18 @@ body {
 /* Formatação padrão */
 
 a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
+}
+
+li > a:hover {
+    color: #fff;
+    background-color: #344B47;
+    transition: all 0.4s;
+}
+
+a:hover i {
+    background-color: #791088;
 }
 
 ul {
@@ -35,7 +45,7 @@ i {
 }
 
 /*Formatação TOP*/
-header {
+#topo {
     flex: 100%;
     height: 5%;
     display: flex;
@@ -44,12 +54,13 @@ header {
     justify-content: space-between;
     align-content: flex-start;
     padding: 0 16px;
-    background:  #0ABBA6;	
+    background:  #791088;	
 }
 
 #title-header {
     font-family: 'Orbitron', sans-serif;
     font-size: 1.6em;
+    
 }
 
 .list-nav-user{
@@ -66,22 +77,42 @@ header {
     
 }
 
+/*Menu dropdwon*/
+
 .dropdown-icon-user {
     position: absolute;
     right: 0;
-    top: 35px;
-    background: #00ACBF;
+    top: 48px;
+    background: #6D81AD;
     display: none;
 }
 
-.dropdown-icon-user li a{
-    display: block;
-    padding: 8px;
+.dropdown-icon-user li {
+    margin: 0;
+}
+
+.dropdown-icon-user a{
+    display: block; 
+    padding: 16px;
+    border-bottom: 1px solid #ffff;
 }
 
 .icon-user:hover .dropdown-icon-user {
     display: block;
 }
+
+/* Edição nav lateral esquerda*/
+#nav-left {
+    flex: 15%;
+    background: #344B47;
+}
+
+main {
+    background: black;
+    flex: 85%;
+}
+
+
 
 
 
