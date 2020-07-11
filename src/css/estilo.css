@@ -10,13 +10,13 @@ html, body {
 body {
 	font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
     box-sizing: border-box;
-    color: #ffff;
     font-size: 16px;
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 /* Formatação padrão */
@@ -32,18 +32,9 @@ li > a:hover {
     transition: all 0.4s;
 }
 
-a:hover i {
-    background-color: #791088;
-}
-
 ul {
     list-style: none;
 }
-
-i {
-    color: #fff;
-}
-
 /*Formatação TOP*/
 #topo {
     flex: 100%;
@@ -82,8 +73,8 @@ i {
 .dropdown-icon-user {
     position: absolute;
     right: 0;
-    top: 48px;
-    background: #6D81AD;
+    top: 35px;
+    background: #791088;
     display: none;
 }
 
@@ -107,7 +98,14 @@ aside {
     background: #6D81AD;
     font-size: 1.1em;
 }
+
+#nav-left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .list-nav-left {
+    flex: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -119,14 +117,26 @@ aside {
 
 .list-nav-left a {
     display: block;
-    padding: 10px;
+    padding: 10px 16px;
     line-height: 30px;
 }
+/*Editando area principal */
 
-main {
+#area-principal {
     background: #EAEEF9;
     flex: 88%;
-    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.title-main {
+    flex: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    border-bottom: 1px solid #0b46e660;
 }
 
 
