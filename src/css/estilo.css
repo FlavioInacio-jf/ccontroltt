@@ -116,10 +116,16 @@ aside {
 }
 
 .list-nav-left a {
-    display: block;
+    display: flex;
+    align-items: center;
     padding: 10px 16px;
     line-height: 30px;
 }
+
+.list-nav-left i {
+    margin-right: 10px;
+}
+
 /*Editando area principal */
 
 #area-principal {
