@@ -28,10 +28,11 @@ a {
     text-decoration: none;
 }
 
-li > a:hover {
+ nav > ul a:hover {
     color: #fff;
+    padding-left: 25px;
     background-color: #926995;
-    transition: all 0.4s;
+    transition: all 0.5s;
 }
 
 ul {
@@ -49,6 +50,8 @@ ul {
     padding: 0 16px;
     background:  #791088;	
 }
+
+/*Editando title */
 
 #title-header {
     font-family: 'Orbitron', sans-serif;
@@ -73,6 +76,7 @@ ul {
 /*Menu dropdwon*/
 
 .dropdown-icon-user {
+    width: 150px;
     position: absolute;
     right: 0;
     top: 35px;
@@ -165,16 +169,23 @@ aside {
     min-width: 250px;
     min-height: 250px;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 2px 2px 5px #868086;
+    border-top: none;
     text-align: center;
 }
 
 .header-quadrado {
-    padding: 15px 0;
-    border-radius: 20px 20px 0 0;
+    height: 20%;
+    line-height: 50px;
+    border-radius: 10px 10px 0 0;
     color: #fff;
     text-transform: uppercase;
+}
+
+.conteudo-quadrado {
+    height: 80%;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .quadrado1-flex .header-quadrado {
@@ -200,6 +211,8 @@ aside {
 
 
 
-
+#home a.home,  
+#sensor a.sensor {
+    background: #C11478;
 
 
