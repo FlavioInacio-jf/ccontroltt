@@ -11,7 +11,7 @@
 /* Formataçõe geral */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: var(--secondary-color)url(../img/bg_dashboard_nklg.svg) no-repeat center center;
+  background: var(--secondary-color);
 }
 
 .subtitulo {
@@ -32,11 +32,11 @@ body {
   height: 10px;
   background: var(--text-light);
   border-radius: 10px;
-  margin: 10px auto 0 auto;
+  margin: 5px auto 0 auto;
 }
 
 .btn {
-  padding: 12px 26px;
+  padding: 10px 15px;
   background: var(--primary-color);
   color: var(--text-light);
   border-radius: 10px;
@@ -59,14 +59,11 @@ body {
 }
 
 .marca img {
-  width: 250px;
-  height: 45px;
+  width: 200px;
+  height: 25px;
 }
 
 /* Formatação area-login */
-.area-login {
-  padding: 80px 0;
-}
 
 .form {
   margin: 0 auto;
@@ -87,7 +84,7 @@ body {
 }
 
 .form label:first-child {
-  margin-top: 30px; 
+  margin-top: 30px;
 }
 
 .form input {
