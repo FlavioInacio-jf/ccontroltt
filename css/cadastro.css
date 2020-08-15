@@ -1,0 +1,31 @@
+.area-cadastro{
+  padding: 30px;
+}
+
+.info-pessoal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-pessoal li:first-child {
+  margin-right: 20px;
+}
+
+.item-nascimento {
+  flex: 2;
+}
+
+.item-sexo {
+  flex: 1;
+}
+
+select {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 3px solid var(--primary-color);
+  border-radius: 10px;
+  outline: none;
+  color: var(--text-light);
+  padding: 6px 10px;
+}

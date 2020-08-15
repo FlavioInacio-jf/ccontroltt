@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>CcontrolTT - Cadastar</title>
+
+    <!-- Normalize-->
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <!-- reset-->
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <!--grid-->
+    <link rel="stylesheet" href="css/grid.css" />
+
+    <!-- style CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/cadastro.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!--Inicio Container-->
+    <header class="header-principal container">
+      <h1 class="marca">
+        <a href="index.html">
+          <img src="img/marca.png" alt=" marca ccontroltt" />
+        </a>
+      </h1>
+
+      <a class="btn" href="login.html">
+        <i class="fa fa-sign-in" aria-hidden="true"></i>
+        login
+      </a>
+    </header>
+
+    <section class="area-cadastro container">
+      <h2 class="subtitulo">jUNTE-SE A NÓS</h2>
+      <form class="form">
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          id="email"
+          required
+          placeholder="Meuemail@Provedor..."
+        />
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" required />
+
+        <ul class="info-pessoal">
+          <li class="item-nascimento">
+            <label for="nascimento">Nascimento</label>
+            <input type="date" id="nascimento" required />
+          </li>
+
+          <li class="item-sexo">
+            <label for="sexo">Sexo</label>
+            <select name="sexo" id="sexo">
+              <option></option>
+              <option>M</option>
+              <option>F</option>
+            </select>
+          </li>
+        </ul>
+
+        <button type="submit" class="btn">
+          <i class="fa fa-check" aria-hidden="true"></i>
+          Finalizar
+        </button>
+      </form>
+    </section>
+
+    <footer class="footer-principal">
+      <div class="container">
+        <p>
+          Copyright &copy; 2020 Flávio Inácio &reg;
+        </p>
+
+        <ul class="lista-redes">
+          <li>
+            <a href="" target="_blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="" target="_blank">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="" target="_blank">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

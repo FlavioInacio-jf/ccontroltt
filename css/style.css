@@ -11,7 +11,7 @@
 /* Formataçõe geral */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: var(--secondary-color)url(../img/undraw_dashboard_nklg.png) no-repeat center center;
+  background: var(--secondary-color)url(../img/bg_dashboard_nklg.svg) no-repeat center center;
 }
 
 .subtitulo {
@@ -43,6 +43,12 @@ body {
   font-size: 18px;
 }
 
+.btn:hover {
+  background: var(--text-light);
+  color: var(--primary-color);
+  transition: all 0.8s;
+}
+
 /*formatação top */
 .header-principal {
   display: flex;
@@ -52,12 +58,9 @@ body {
   max-height: 114px;
 }
 
-.marca a {
-  font-size: 36px;
-  letter-spacing: 0.1em;
-  font-weight: bold;
-  color: var(--primary-color);
-  text-transform: uppercase;
+.marca img {
+  width: 250px;
+  height: 45px;
 }
 
 /* Formatação area-login */
@@ -77,6 +80,10 @@ body {
   line-height: 21px;
   font-weight: normal;
   margin-bottom: 5px;
+  cursor: pointer;
+}
+.form label:nth-child(odd) {
+  margin-top: 20px;
 }
 
 .form label:first-child {
@@ -92,22 +99,25 @@ body {
   outline: none;
   color: var(--text-light);
   padding: 6px 10px;
-  margin-bottom: 20px;
 }
 
-
+a.form-link {
+  font-size: 14px;
+  margin-left: 57%;
+  color: var(--primary-color);
+}
+a.form-link:hover {
+  color: var(--text-light);
+  transition: all 0.4s;
+}
 
 .form button {
   display: block;
   width: 100%;
-  background: var(--primary-color);
-  color: var(--text-light);
   border: none;
-  border-radius: 10px;
-  outline: none;
   margin-top: 20px;
-  padding: 10px;
-  font-size: 18px;
+  padding: 10px 0;
+  cursor: pointer;
 }
 
 /*Formatação rodape*/
@@ -138,6 +148,11 @@ body {
 
 .lista-redes i {
   color: var(--text-light);
+  font-size: 18px;
+}
+
+.lista-redes i:hover {
+  color: var(--secondary-color);
   font-size: 18px;
 }
 /*Editando title */
