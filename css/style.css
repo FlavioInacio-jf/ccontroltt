@@ -14,21 +14,25 @@ body {
   background: var(--secondary-color);
 }
 
-/*formatação top */
-.header-principal {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 0;
-  min-height: 114px;
+.subtitulo {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  max-width: 324px;
+  text-transform: uppercase;
+  color: var(--text-light);
+  margin: 0 auto;
+  text-align: center;
 }
 
-.marca a {
-  font-size: 36px;
-  letter-spacing: 0.1em;
-  font-weight: bold;
-  color: var(--primary-color);
-  text-transform: uppercase;
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 10px;
+  background: var(--text-light);
+  border-radius: 10px;
+  margin: 10px auto;
 }
 
 .btn {
@@ -39,10 +43,104 @@ body {
   font-size: 18px;
 }
 
+/*formatação top */
+.header-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  max-height: 114px;
+}
+
+.marca a {
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
 /* Formatação area-login */
 .area-login {
-  background: url(../img/bg-dashboard_nklg.svg) no-repeat center bottom;
+  background: url(../img/undraw_dashboard_nklg.png) no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  border: 1px solid red;jfla
 }
-/*Formatação TOP*/
 
+.form {
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.form label {
+  display: block;
+  color: var(--text-light);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 3px solid var(--primary-color);
+  border-radius: 10px;
+  outline: none;
+  color: var(--text-light);
+  padding: 6px 10px;
+  margin-bottom: 20px;
+}
+.form input:first-child {
+  margin-top: 50px;
+}
+
+.form a {
+}
+
+.form button {
+  display: block;
+  width: 100%;
+  background: var(--primary-color);
+  color: var(--text-light);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/*Formatação rodape*/
+.footer-principal {
+  width: 100%;
+  padding: 20px 0;
+  background: var(--primary-color);
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-principal .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-principal p {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 27px;
+}
+
+.lista-redes li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.lista-redes i {
+  color: var(--text-light);
+  font-size: 18px;
+}
 /*Editando title */
