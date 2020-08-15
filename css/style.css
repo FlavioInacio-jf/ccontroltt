@@ -120,7 +120,7 @@ a.form-link:hover {
 /*Formatação rodape*/
 .footer-principal {
   width: 100%;
-  padding: 20px 0;
+  padding: 15px 0;
   background: var(--primary-color);
   position: absolute;
   bottom: 0;
