@@ -1,0 +1,33 @@
+.area-cadastro {
+  background: url(../img/bg_dashboard_nklg.svg) no-repeat center center;
+  padding: 40px 0;
+}
+
+.info-pessoal {
+  display: flex;
+  align-items: center;
+}
+
+.info-pessoal li:first-child {
+  margin-right: 20px;
+}
+
+.item-nascimento  {
+  width: 60%;
+
+}
+.item-sexo {
+  width: 50%;
+}
+
+select {
+  display: block;
+  width: 100%;
+  background: var(--secondary-color);
+  border: 3px solid var(--primary-color);
+  border-radius: 10px;
+  outline: none;
+  color: var(--text-light);
+  padding: 8px 10px;
+  
+}
