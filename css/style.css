@@ -54,13 +54,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
-  max-height: 114px;
+  padding: 20px 0;
 }
 
 .marca img {
-  width: 200px;
-  height: 25px;
+  width: 150px;
+  height: 27px;
 }
 
 /* Formatação area-login */
@@ -120,7 +119,7 @@ a.form-link:hover {
 /*Formatação rodape*/
 .footer-principal {
   width: 100%;
-  padding: 15px 0;
+  padding: 10px 0;
   background: var(--primary-color);
   position: absolute;
   bottom: 0;
@@ -152,4 +151,3 @@ a.form-link:hover {
   color: var(--secondary-color);
   font-size: 18px;
 }
-/*Editando title */
