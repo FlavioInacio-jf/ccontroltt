@@ -55,7 +55,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  
 }
 
 .marca img {
@@ -152,4 +151,3 @@ a.form-link:hover {
   color: var(--secondary-color);
   font-size: 18px;
 }
-/*Editando title */
