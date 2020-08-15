@@ -1,23 +1,48 @@
 :root {
   --preto: #232729;
-  --roxo: #6C63FF;
+  --roxo: #6c63ff;
+  --branco: #f9f9f9;
 
-
-  --primary-color: var(roxo);
-  --secondary-color: var(--preto)
+  --primary-color: var(--roxo);
+  --secondary-color: var(--preto);
+  --text-light: var(--branco);
 }
 
 /* Formataçõe geral */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
   background: var(--secondary-color);
 }
 
+/*formatação top */
+.header-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  min-height: 114px;
+}
 
+.marca a {
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
 
-/* Formatação padrão */
+.btn {
+  padding: 12px 26px;
+  background: var(--primary-color);
+  color: var(--text-light);
+  border-radius: 10px;
+  font-size: 18px;
+}
 
+/* Formatação area-login */
+.area-login {
+  background: url(../img/bg-dashboard_nklg.svg) no-repeat center bottom;
+}
 /*Formatação TOP*/
 
 /*Editando title */
