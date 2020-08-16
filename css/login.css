@@ -12,3 +12,8 @@ a.form-link:hover {
   color: var(--text-light);
   transition: all 0.4s;
 }
+
+.footer-principal {
+  position: absolute;
+  bottom: 0;
+}

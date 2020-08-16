@@ -62,6 +62,49 @@ body {
   height: 27px;
 }
 
+/*formatacao introducao */
+.introducao {
+  background: var(--primary-color);
+  padding: 40px;
+}
+
+.subtitulo-introducao {
+  max-width: 500px;
+}
+
+.introducao p {
+  color: var(--text-light);
+  font-size: 18px;
+  line-height: 28px;
+  padding-top: 130px;
+}
+
+.introducao .row {
+  padding: 70px 0;
+}
+
+
+.call {
+  text-align: center;
+}
+
+.call .btn-introducao {
+  background: var(--secondary-color);
+  padding: 15px 40px;
+}
+
+.call p {
+  padding: 0;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+/*formatacao area utilizacao */
+
+.utilizacao {
+  padding: 40px;
+}
+
 /* Formatação area-login */
 
 .form {
@@ -121,8 +164,6 @@ a.form-link:hover {
   width: 100%;
   padding: 10px 0;
   background: var(--primary-color);
-  position: absolute;
-  bottom: 0;
 }
 
 .footer-principal .container {
