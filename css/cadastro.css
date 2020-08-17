@@ -12,9 +12,8 @@
   margin-right: 20px;
 }
 
-.item-nascimento  {
+.item-nascimento {
   width: 60%;
-
 }
 .item-sexo {
   width: 50%;
@@ -29,5 +28,9 @@ select {
   outline: none;
   color: var(--text-light);
   padding: 8px 10px;
-  
+}
+
+.footer-principal {
+  position: absolute;
+  bottom: 0;
 }

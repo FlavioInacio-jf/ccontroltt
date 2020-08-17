@@ -36,7 +36,7 @@
   flex-shrink: 0;
 }
 .grid-1 {
-  flex: 40px;
+  width: 40px;
 }
 .grid-2 {
   flex: 100px;
@@ -57,7 +57,7 @@
   flex: 400px;
 }
 .grid-8 {
-  flex: 460px;
+  width: 460px;
 }
 .grid-9 {
   flex: 500px;
