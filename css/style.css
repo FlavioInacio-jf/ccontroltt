@@ -14,6 +14,11 @@ body {
   background: var(--secondary-color);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .subtitulo {
   font-size: 24px;
   line-height: 36px;
@@ -102,7 +107,34 @@ body {
 /*formatacao area utilizacao */
 
 .utilizacao {
-  padding: 40px;
+  padding: 40px 0;
+}
+.card-list {
+  padding-top: 40px;
+}
+.card-item:nth-child(-1n+2) {
+  margin-bottom: 20px;
+}
+.card-body {
+  background: var(--primary-color);
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  color: var(--text-light);
+  padding: 20px 0;
+}
+
+.card-title {
+  text-transform: uppercase;
+  color: var(--text-light);
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 /* Formatação area-login */
