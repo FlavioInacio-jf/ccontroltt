@@ -1,17 +1,17 @@
 :root {
-  --preto: #232729;
+  --preto: #0A0D11;
   --roxo: #6c63ff;
-  --branco: #f9f9f9;
-
+  --branco: #EEF0FA;
+  --verde: #0091D7;
   --primary-color: var(--roxo);
   --secondary-color: var(--preto);
-  --text-light: var(--branco);
+  --light: var(--branco);
 }
 
 /* Formataçõe geral */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: var(--secondary-color);
+  background: var(--primary-color);
 }
 
 img {
@@ -19,39 +19,63 @@ img {
   max-width: 100%;
 }
 
+p {
+  font-size: 14px;
+  line-height: 28px;
+}
+
 .subtitulo {
   font-size: 24px;
-  line-height: 36px;
+  line-height: 40px;
   font-weight: bold;
   max-width: 324px;
-  text-transform: uppercase;
-  color: var(--text-light);
-  margin: 0 auto;
-  text-align: center;
+  text-transform: none;
+  color: var(--light);
+  text-align: left;
 }
 
 .subtitulo:after {
   content: "";
   display: block;
   width: 100px;
-  height: 10px;
-  background: var(--text-light);
+  height: 5px;
+  background: var(--light);
   border-radius: 10px;
-  margin: 5px auto 0 auto;
+  margin: 5px 0 0 0;
 }
+
+.subitulo-light {
+  color: var(--verde);
+}
+
+.subitulo-light:after {
+  background: var(--verde);
+}
+
 
 .btn {
   padding: 10px 15px;
-  background: var(--primary-color);
-  color: var(--text-light);
+  line-height: 30px;
+  background: var(--verde);
+  color: var(--light);
   border-radius: 10px;
   font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: none;
+  border: 1px solid var(--light);
 }
 
 .btn:hover {
-  background: var(--text-light);
-  color: var(--primary-color);
+  background: var(--light);
+  color: var(--verde);
   transition: all 0.8s;
+}
+
+.btn-outline:hover {
+  color: var(--primary-color);
 }
 
 /*formatação top */
@@ -60,54 +84,49 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+  color: var(--light);
+  font-size: 24px;
 }
 
-.marca img {
-  width: 150px;
-  height: 27px;
+img.marca  {
+  width: 250px;
+  height: 30px;
+}
+
+.header-principal span {
+  margin:  0 10px;
 }
 
 /*formatacao introducao */
 .introducao {
   background: var(--primary-color);
-  padding: 40px;
+  padding: 48px;
 }
 
 .subtitulo-introducao {
   max-width: 500px;
+  
 }
 
 .introducao p {
-  color: var(--text-light);
-  font-size: 18px;
+  color: var(--light);
+  font-size: 14px;
   line-height: 28px;
-  padding-top: 130px;
+  padding:  40px 20px 45px 0;
 }
 
-.introducao .row {
-  padding: 70px 0;
-}
-
-
-.call {
-  text-align: center;
-}
-
-.call .btn-introducao {
-  background: var(--secondary-color);
+ .introducao .btn-introducao {
+  margin-top: 20px;
   padding: 15px 40px;
 }
 
-.call p {
-  padding: 0;
-  font-size: 24px;
-  margin-bottom: 40px;
-}
 
 /*formatacao area utilizacao */
 
 .utilizacao {
+  background: var(--light);
   padding: 40px 0;
+  color: var(--secondary-color);
 }
 .card-list {
   padding-top: 40px;
