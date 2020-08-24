@@ -41,14 +41,14 @@ p {
   height: 5px;
   background: var(--light);
   border-radius: 10px;
-  margin: 5px 0 20px 0 ;
+  margin: 0px 0 20px 0 ;
 }
 
-.subitulo-light {
+.subitulo-green {
   color: var(--verde);
 }
 
-.subitulo-light:after {
+.subitulo-green:after {
   background: var(--verde);
 }
 
@@ -114,6 +114,7 @@ img.marca  {
   background: var(--primary-color);
   padding: 60px 0;
   margin-top: 70px;
+  border-bottom: 1px solid #f9f9f9;
 }
 
 .subtitulo-introducao {
@@ -165,7 +166,8 @@ img.marca  {
 /*formatacao area configuração pessoal */
 .smart-home {
   padding: 60px 0;
-  color: var(--light);
+  background: var(--light);
+  color: var(--secondary-color);
 }
 
 .smart-home .card-body {
@@ -173,7 +175,7 @@ img.marca  {
 }
 
 
-/* Formatação area-login */
+/* Formatação mais configuracoes */
 .mais-configuracoes {
   padding: 60px 0;
   background: var(--light);
