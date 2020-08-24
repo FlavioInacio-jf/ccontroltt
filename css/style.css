@@ -112,7 +112,7 @@ img.marca  {
 /*formatacao introducao */
 .introducao {
   background: var(--primary-color);
-  padding: 40px 0;
+  padding: 60px 0;
   margin-top: 70px;
 }
 
@@ -137,7 +137,7 @@ img.marca  {
 
 .pessoal-conf {
   background: var(--light);
-  padding: 40px 0;
+  padding: 60px 0;
   color: var(--secondary-color);
 }
 
@@ -153,9 +153,32 @@ img.marca  {
   margin-bottom: 20px;
 }
 
+.card-subtitulo-light {
+  color: var(--light);
+
+}
+
 .card-text {
   padding-top: 20px;
 }
+
+/*formatacao area configuração pessoal */
+.smart-home {
+  padding: 60px 0;
+  color: var(--light);
+}
+
+.smart-home .card-body {
+  padding-right: 20px;
+}
+
+
+/* Formatação area-login */
+.mais-configuracoes {
+  padding: 60px 0;
+  background: var(--light);
+}
+
 
 /* Formatação area-login */
 
