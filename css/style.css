@@ -1,8 +1,8 @@
 :root {
-  --preto: #0A0D11;
+  --preto: #0a0d11;
   --roxo: #6c63ff;
-  --branco: #EEF0FA;
-  --verde: #0091D7;
+  --branco: #eef0fa;
+  --verde: #0091d7;
   --primary-color: var(--roxo);
   --secondary-color: var(--preto);
   --light: var(--branco);
@@ -28,7 +28,6 @@ p {
   font-size: 24px;
   line-height: 40px;
   font-weight: bold;
-  max-width: 324px;
   text-transform: none;
   color: var(--light);
   text-align: left;
@@ -41,7 +40,7 @@ p {
   height: 5px;
   background: var(--light);
   border-radius: 10px;
-  margin: 0px 0 20px 0 ;
+  margin: 0px 0 20px 0;
 }
 
 .subitulo-green {
@@ -51,7 +50,6 @@ p {
 .subitulo-green:after {
   background: var(--verde);
 }
-
 
 .btn {
   padding: 10px 15px;
@@ -96,7 +94,7 @@ p {
   align-items: center;
 }
 
-img.marca  {
+img.marca {
   width: 250px;
   height: 30px;
 }
@@ -106,7 +104,7 @@ img.marca  {
 }
 
 .header-principal span {
-  margin:  0 10px;
+  margin: 0 10px;
 }
 
 /*formatacao introducao */
@@ -114,7 +112,6 @@ img.marca  {
   background: var(--primary-color);
   padding: 60px 0;
   margin-top: 70px;
-  border-bottom: 1px solid #f9f9f9;
 }
 
 .subtitulo-introducao {
@@ -125,14 +122,13 @@ img.marca  {
   color: var(--light);
   font-size: 14px;
   line-height: 28px;
-  padding:  20px 20px 45px 0;
+  padding: 20px 20px 45px 0;
 }
 
- .introducao .btn-introducao {
+.introducao .btn-introducao {
   margin-top: 20px;
   padding: 15px 40px;
 }
-
 
 /*formatacao area configuração pessoal */
 
@@ -140,6 +136,7 @@ img.marca  {
   background: var(--light);
   padding: 60px 0;
   color: var(--secondary-color);
+  border-bottom: 2px dashed #f9f9f9;
 }
 
 .card-body {
@@ -156,7 +153,6 @@ img.marca  {
 
 .card-subtitulo-light {
   color: var(--light);
-
 }
 
 .card-text {
@@ -168,12 +164,12 @@ img.marca  {
   padding: 60px 0;
   background: var(--light);
   color: var(--secondary-color);
+  border-bottom: 2px dashed #f9f9f9;
 }
 
 .smart-home .card-body {
   padding-right: 20px;
 }
-
 
 /* Formatação mais configuracoes */
 .mais-configuracoes {
@@ -181,6 +177,47 @@ img.marca  {
   background: var(--light);
 }
 
+.mais-configuracoes .subtitulo,
+.mais-configuracoes .subtitulo:after {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.choice {
+  max-width: 450px;
+  max-height: 50px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 1px;
+  margin: 50px auto;
+}
+
+.choice ul {
+  border-radius: inherit;
+}
+
+.choice li {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  border-radius: inherit;
+}
+
+.choice li button {
+  padding: 5px 0;
+  width: 100%;
+  border: none;
+  background: none;
+  border-radius: inherit;
+}
+
+.choice li.ativo {
+  background: var(--primary-color);
+  color: var(--light);
+  cursor: context-menu;
+}
 
 /* Formatação area-login */
 
