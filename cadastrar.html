@@ -55,7 +55,21 @@
         <label for="senha">Senha</label>
         <input type="password" id="senha" required />
 
-        <a href="" class="form-link"> Esqueci a senha </a>
+        <div class="info-pessoal">
+          <fieldset>
+            <label for="nascimento">Nascimento</label>
+            <input type="date" id="nascimento" required />
+          </fieldset>
+          
+          <fieldset>
+            <label for="sexo">Sexo</label>
+            <select name="sexo">
+              <option  selected></option>
+              <option value="masculino">m</option>
+              <option value="feminino">f</option>
+            </select>
+          </fieldset>
+        </div>
 
         <button type="submit" class="btn">
           <i class="fa fa-sign-in" aria-hidden="true"></i>
