@@ -31,6 +31,7 @@ p {
   text-transform: none;
   color: var(--light);
   text-align: left;
+  text-transform: uppercase;
 }
 
 .subtitulo:after {
@@ -57,7 +58,7 @@ p {
   background: var(--verde);
   color: var(--light);
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 14px;
   cursor: pointer;
 }
 
@@ -75,6 +76,8 @@ p {
 .btn-outline:hover {
   color: var(--primary-color);
 }
+
+
 
 /*formatação top */
 .header-principal {
@@ -105,6 +108,7 @@ img.marca {
 
 .header-principal span {
   margin: 0 10px;
+  font-size: 14px;
 }
 
 /*formatacao introducao */
@@ -114,8 +118,17 @@ img.marca {
   margin-top: 70px;
 }
 
-.subtitulo-introducao {
-  max-width: 500px;
+.introducao .row {
+  padding-top: 40px ;
+}
+
+.introducao .subtitulo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.introducao .subtitulo:after {
+  margin: 0 auto;
 }
 
 .introducao p {
@@ -128,6 +141,7 @@ img.marca {
 .introducao .btn-introducao {
   margin-top: 20px;
   padding: 15px 40px;
+  font-size: 18px;
 }
 
 /*formatacao area configuração pessoal */
@@ -266,57 +280,7 @@ ul {
 
 /* Formatação area-login */
 
-.form {
-  margin: 0 auto;
-  max-width: 250px;
-}
 
-.form label {
-  display: block;
-  color: var(--text-light);
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: normal;
-  margin-bottom: 5px;
-  cursor: pointer;
-}
-.form label:nth-child(odd) {
-  margin-top: 20px;
-}
-
-.form label:first-child {
-  margin-top: 30px;
-}
-
-.form input {
-  display: block;
-  width: 100%;
-  background: none;
-  border: 3px solid var(--primary-color);
-  border-radius: 10px;
-  outline: none;
-  color: var(--text-light);
-  padding: 6px 10px;
-}
-
-a.form-link {
-  font-size: 14px;
-  margin-left: 57%;
-  color: var(--primary-color);
-}
-a.form-link:hover {
-  color: var(--text-light);
-  transition: all 0.4s;
-}
-
-.form button {
-  display: block;
-  width: 100%;
-  border: none;
-  margin-top: 20px;
-  padding: 10px 0;
-  cursor: pointer;
-}
 
 /*Formatação rodape*/
 .footer-principal {
@@ -337,19 +301,16 @@ a.form-link:hover {
 
 .lista-redes li {
   display: inline-block;
-  margin-left: 5px;
 }
 
 .lista-redes i {
   color: var(--light);
   font-size: 18px;
-  border: 1px solid var(--light);
   border-radius: 5px;
   padding: 10px;
 }
 
 .lista-redes i:hover {
-  border-color: var(--secondary-color);
   color: var(--secondary-color);
   font-size: 18px;
   transition: all 0.4s;

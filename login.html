@@ -24,22 +24,26 @@
     />
   </head>
 
-  <body>
-    <!--Inicio Container-->
-    <header class="container">
-      <div class="grid-16 header-principal">
-        <h1 class="marca">
-          <a href="index.html">
-            <img src="img/marca.png" alt=" marca ccontroltt" />
-          </a>
-        </h1>
+  <body id="login">
+      <!--Inicio Container-->
+      <header class="header-principal">
+        <div class="container">
+          <div class="row">
+            <div class="grid-16">
+              <a href="index.html">
+                <img class="marca" src="img/marca.svg" alt=" marca ccontroltt" />
+              </a>
+    
+              <nav class="call-header">
+                <a class="btn" href="cadastrar.html">
+                  Cadastre-se
+                </a>
+              </nav>
 
-        <a class="btn" href="cadastrar.html">
-          <i class="fa fa-sign-in" aria-hidden="true"></i>
-          Cadastrar-se
-        </a>
-      </div>
-    </header>
+            </div>
+          </div>
+        </div>
+      </header>
 
     <section class="area-login container">
       <h2 class="subtitulo">minha conta do CcontrolTT</h2>
@@ -49,7 +53,6 @@
           type="email"
           id="email"
           required
-          placeholder="Meuemail@Provedor..."
         />
 
         <label for="senha">Senha</label>
@@ -66,25 +69,24 @@
       </form>
     </section>
 
-    <footer class="footer-principal">
+    <footer class="footer-principal footer-bottom ">
       <div class="container">
         <p>
           Copyright &copy; 2020 Flávio Inácio &reg;
         </p>
-
         <ul class="lista-redes">
           <li>
             <a href="" target="_blank">
               <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
           </li>
-
+  
           <li>
             <a href="" target="_blank">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </li>
-
+  
           <li>
             <a href="" target="_blank">
               <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -93,5 +95,6 @@
         </ul>
       </div>
     </footer>
+    
   </body>
 </html>
