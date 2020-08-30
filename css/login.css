@@ -47,11 +47,11 @@
 .form input {
   display: block;
   width: 100%;
-  background: none;
+  background: var(--light);
   border: 1px solid var(--light);
   border-radius: 8px;
   outline: none;
-  color: var(--text-light);
+  color: var(--secondary-color);
   padding: 6px 10px;
 }
 
