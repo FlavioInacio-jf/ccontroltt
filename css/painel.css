@@ -17,17 +17,14 @@ html {
   height: 100%;
   padding: 25px 0;
 }
+
 .brand img {
   width: 35px;
   height: 35px;
 }
-.brand {
-  padding-left: 20px;
-  border: 1px solid red;
-}
 
 .navbar {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 .nav-link {
@@ -41,7 +38,7 @@ html {
   padding: 10px 20px;
 }
 
-a.ativo i{
+a.ativo i {
   color: var(--light);
   font-size: 28px;
 }
@@ -49,9 +46,8 @@ a.ativo i{
 a.ativo:before {
   content: "";
   position: absolute;
-  bottom: 12px;
   display: inline-block;
   width: 5px;
-  height: 28px;
+  height: 48px;
   background: var(--light);
-} 
+}
