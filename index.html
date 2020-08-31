@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
-    <title>ControlTT</title>
+    <title>ControlTT - Cadastro</title>
 
     <!-- Normalize-->
     <link rel="stylesheet" href="css/normalize.css" />
@@ -13,8 +13,9 @@
     <!--grid-->
     <link rel="stylesheet" href="css/grid.css" />
 
-    <!-- style CSS-->
     <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="css/painel.css" />
 
     <link
       rel="stylesheet"
@@ -22,182 +23,42 @@
     />
   </head>
 
-  <body class="bg-light">
-    <!--Inicio Container-->
-    <header class="header-principal">
-      <div class="container">
-        <div class="row">
-          <div class="grid-16">
-            <a href="index.html">
-              <img class="marca" src="img/marca.svg" alt=" marca ccontroltt" />
-            </a>
+  <body>
+    <div class="container">
+      <header class="menu-principal">
+        
+        <a href="" class="brand">
+          <img src="img/marca.png">
+        </a>
 
-            <nav class="call-header">
-              <a class="btn" href="cadastrar.html">
-                Cadastre-se
+        <nav class="navbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="" class="nav-link ativo" >
+                <i class="fa fa-home fa-4x" aria-hidden="true"></i>
               </a>
-
-              <span>
-                ou
-              </span>
-
-              <a class="btn btn-outline" href="login.html">
-                <i class="fa fa-sign-in" aria-hidden="true"></i>
-                Login
-              </a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="introducao">
-      <div class="container">
-        <h2 class="subtitulo subtitulo-introducao">
-          Como funciona o ControlTT?
-        </h2>
-        <div class="row">
-          <div class="grid-8">
-            <p>
-              Lorem Ipsum é simplesmente uma simulação de texto da indústria
-              tipográfica e de impressos, e vem sendo utilizado desde o século
-              XVI, quando um impressor desconhecido pegou uma bandeja de tipos e
-              os embaralhou para fazer um livro de modelos de tipos.
-            </p>
-
-            <a class="btn btn-introducao" href="cadastrar.html">
-              Cadastrar-se
-            </a>
-          </div>
-
-          <div class="grid-8">
-            <img
-              src="img/control_panel.svg"
-              alt="imagem introducao"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="pessoal-conf">
-      <div class="container">
-        <div class="row">
-          <div class="grid-8">
-            <img
-              src="img/personal_settings.svg"
-              alt="Configurações pessoais controltt"
-            />
-          </div>
-
-          <div class="grid-8 section-body">
-            <h2 class="subtitulo subitulo-green">Vantagens de utiliza-lo</h2>
-            <h3 class="article-subtitulo">Lorem ipsum</h3>
-            <p>
-              Lorem Ipsum é uma simulação de texto da indústria tipográfica e de
-              impressos, e Lorem Ipsum é uma simulação de texto da indústria
-              tipográfica e de impressos, e
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="smart-home ">
-      <div class="container">
-        <div class="row">
-          <div class="grid-8 article-body">
-            <h2 class="subtitulo subitulo-green">Vantagens de utiliza-lo</h2>
-            <h3 class="article-subtitulo">Lorem ipsum</h3>
-            <p class="article-text">
-              Lorem Ipsum é uma simulação de texto da indústria tipográfica e de
-              impressos, e Lorem Ipsum é uma simulação de texto da indústria
-              tipográfica e de impressos, e
-            </p>
-          </div>
-  
-          <div class="grid-8">
-            <img
-              src="img/smart_home.svg"
-              alt="Configurações pessoais controltt"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="mais-configuracoes">
-      <div class="container">
-        <div class="row">
-          <div class="grid-16">
-            <h2 class="subtitulo subitulo-green">Controle nas suas mãos</h2>
-            <div class="choice">
-              <ul>
-                <li >
-                  <button class="ativo">Titulo 1</button>
-                </li>
-                
-                <li>
-                  <button>Titulo 2</button>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <ul class="grid-16">
-            <li class="card card-ativo">
-              <div class="card-img">
-                <img src="img/dashbord.svg" alt="switches controltt">
-              </div>
-              
-              <div class="card-body">
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos distinctio ab enim illo nostrum ipsa
-                </p>
-              </div>
             </li>
 
-            <li class="card">
-              <div class="card-img">
-                <img src="img/switches.svg" alt="switches controltt">
-              </div>
-              
-              <div class="card-body">
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos distinctio ab enim illo nostrum ipsa
-                </p>
-              </div>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+              </a>
             </li>
 
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fa fa-info-circle" aria-hidden="true"></i>
+              </a>
+            </li>
           </ul>
-        </div>
-      </div>
-    </section>
-
-    <footer class="container footer-principal ">
-        <p>
-          Copyright &copy; 2020 Flávio Inácio &reg;
-        </p>
-
-        <ul class="lista-redes">
-          <li>
-            <a href="" target="_blank">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-          </li>
-
-          <li>
-            <a href="" target="_blank">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-          </li>
-
-          <li>
-            <a href="" target="_blank">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-          </li>
-        </ul>
-    </footer>
+        </nav>
+      </header>
+    </div>
   </body>
 </html>
