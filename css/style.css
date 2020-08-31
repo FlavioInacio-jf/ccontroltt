@@ -112,10 +112,9 @@ p {
 }
 
 
-.nav-link i {
+.nav-link .bi {
   color: #545477;
-  font-size: 30px;
-  -webkit-text-stroke: 0.6px;
+  
 }
 
 .nav-link p {
@@ -123,7 +122,7 @@ p {
   font-size: 14px;
   text-transform: uppercase;
   margin-top: 5px;
-  -webkit-text-stroke: 0.6px;
+  filter: blur(0.35px);
 }
 
 .ativo, .ativo i {
