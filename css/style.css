@@ -1,8 +1,7 @@
 :root {
   --marron: #282C2F;
-  --abobora: #E09F1F;
   --roxo: #6c63ff;
-  --branco: #eef0fa;
+  --branco: #EEF0FA;
   --verde: #0091d7;
   --preto: #0A0D11;
 
@@ -15,6 +14,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: var(--primary-color);
+  color: var(--light);
+  -webkit-font-smoothing: antialiased;
 }
 
 img {
@@ -27,68 +28,43 @@ p {
   line-height: 28px;
 }
 
+svg {
+  cursor: pointer;
+}
+
 .subtitulo {
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 14px;
+  line-height: 25px;
   font-weight: bold;
   text-transform: none;
   color: var(--light);
   text-align: left;
   text-transform: uppercase;
+  filter: blur(0.35px);
+  
 }
 
 .subtitulo:after {
   content: "";
   display: block;
-  width: 100px;
+  width: 46px;
   height: 5px;
   background: var(--light);
   border-radius: 10px;
   margin: 0px 0 20px 0;
 }
 
-.subitulo-green {
-  color: var(--verde);
-}
-
-.subitulo-green:after {
-  background: var(--verde);
-}
-
-.btn {
-  padding: 10px 15px;
-  line-height: 30px;
-  background: var(--verde);
-  color: var(--light);
-  border-radius: 10px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-.btn-outline {
-  background: none;
-  border: 1px solid var(--light);
-}
-
-.btn:hover {
-  background: var(--light);
-  color: var(--verde);
-  transition: all 0.8s;
-}
-
-.btn-outline:hover {
-  color: var(--primary-color);
-}
-
 .container {
   width: 100%;
   margin: 0 auto;
   background: var(--preto);
+  position: relative;
+  display: flex;
 }
 
 /*Formatação topo */
 .menu-principal {
-  max-width: 100px;
+  min-width: 8%;
   background: var(--marron);
   height: 100%;
   padding-top: 30px;
@@ -107,14 +83,13 @@ p {
 .nav-link {
   display: block;
   text-align: center;
-  color: #FFEDCB;
-  padding-bottom: 30px;
+  color: #ffffff;
+  padding: 15px 0 15px 0;
+  position: relative;
 }
 
-
-.nav-link .bi {
+.nav-link .icon {
   color: #545477;
-  
 }
 
 .nav-link p {
@@ -125,10 +100,53 @@ p {
   filter: blur(0.35px);
 }
 
-.ativo, .ativo i {
+.ativo p, .ativo .icon {
   color: var(--secondary-color);
+  line-height: 18px;
+}
+
+.ativo.nav-link:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  vertical-align: bottom;
+  left: 0;
+  width: 5px;
+  height: 50px;
+  background: var(--secondary-color);
 }
 
 /*Formatação area conteudo */
+.area-main {
+  min-width: 92%;
+  padding: 40px 20px 40px 20px;
+}
 
+/* Nav area main*/
+.area-main nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.area-main-item {
+  margin-left: 20px;
+}
+
+.area-main-link {
+  color: var(--light);
+}
+
+.box {
+  background: var(--marron);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 610px;
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
