@@ -1,10 +1,12 @@
 :root {
-  --preto: #0a0d11;
+  --preto: #282C2F;
+  --abobora: #E09F1F;
   --roxo: #6c63ff;
   --branco: #eef0fa;
   --verde: #0091d7;
-  --primary-color: var(--roxo);
-  --secondary-color: var(--preto);
+
+  --primary-color: var(--preto);
+  --secondary-color: var(--abobora);
   --light: var(--branco);
 }
 
@@ -75,6 +77,41 @@ p {
 
 .btn-outline:hover {
   color: var(--primary-color);
+}
+
+
+
+/*Formatação topo */
+.menu-principal {
+  max-width: 130px;
+  background: var(--primary-color);
+  height: 100%;
+  padding-top: 30px;
+}
+
+.brand img {
+  width: 35px;
+  height: 35px;
+}
+
+.navbar {
+  padding-top: 30px;
+}
+
+.nav-link {
+  text-align: center;
+  color: #FFEDCB;
+}
+
+.nav-link i {
+  display: block;
+  color: #FFEDCB;
+  font-size: 35px;
+  padding: 10px 20px;
+}
+
+i.ativo {
+  color: var(--secondary-color);
 }
 
 
