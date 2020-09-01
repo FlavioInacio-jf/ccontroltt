@@ -60,6 +60,7 @@ svg {
   background: var(--preto);
   position: relative;
   display: flex;
+  flex-wrap: wrap;
 }
 
 /*Formatação topo */
@@ -88,6 +89,11 @@ svg {
   position: relative;
 }
 
+.navbar .nav-link:not(.ativo):hover {
+  background: var(--light);
+  transition: all 0.8s;
+}
+
 .nav-link .icon {
   color: #545477;
 }
@@ -103,6 +109,7 @@ svg {
 .ativo p, .ativo .icon {
   color: var(--secondary-color);
   line-height: 18px;
+  cursor: auto;
 }
 
 .ativo.nav-link:before {
@@ -130,12 +137,19 @@ svg {
 }
 
 .area-main-item {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .area-main-link {
+  display: block;
   padding: 8px;
   color: var(--light);
+}
+
+.area-main-item:hover {
+  border-radius: 100%;
+  background: var(--primary-color);
+  transition: all 0.4s;
 }
 
 .box {
@@ -151,3 +165,46 @@ svg {
   align-items: center;
 }
 
+.box-title {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: bold;
+  text-transform: none;
+  color: var(--light);
+  text-align: left;
+  text-transform: uppercase;
+  filter: blur(0.35px);  
+}
+
+.box-title:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 5px;
+  background: var(--light);
+  border-radius: 10px;
+  margin: 0px 0 20px 0;
+}
+
+.box-body {
+  padding: 20px 0;
+  color: #AAACAD;
+}
+
+.box-item .box-header-item  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-item .box-header-title {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.box-item input[type="range"] {
+  display: block;
+  width: 100%;
+  outline: none;
+}
