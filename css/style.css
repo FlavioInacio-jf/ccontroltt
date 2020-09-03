@@ -247,6 +247,11 @@ input[type="range"] {
   border-radius: 0;
 }
 
+/* Desabilitar o evento do mouse em sensores*/
+.sensor input[type="range"] {
+  pointer-events: none;
+}
+
 input[type="range"]:focus{
   outline: none;
 }
@@ -257,6 +262,7 @@ input[type="range"]:focus{
   height: 20px;
   background: var(--light);
   border-radius: inherit;
+  
 }
 ::-webkit-slider-thumb {
   width: 30px;
@@ -266,7 +272,9 @@ input[type="range"]:focus{
   box-shadow: -100vw 0 0 100vw var(--secondary-color);
   -webkit-transition:  width 0.4s, height 0.4s;
   transition: width 0.4s, height 0.4s;
+  
 }
+
 ::-webkit-slider-thumb:hover {
   width: 40px;
 }
