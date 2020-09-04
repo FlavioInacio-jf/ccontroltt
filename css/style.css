@@ -77,8 +77,14 @@ svg {
 }
 
 .navbar {
-  
-  padding: 30px 10px 0 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: var(--primary-color);
+  z-index: 999;
+  padding: 0;
+  border-top: 1px solid var(--secondary-color);
 }
 
 .navbar-nav {
@@ -136,7 +142,7 @@ svg {
 /*Formatação area conteudo */
 .area-main {
   width: 100%;
-  padding: 20px 10px;
+  padding: 20px 10px 70px 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -159,9 +165,11 @@ svg {
 
 .area-main-link {
   display: block;
-  padding: 8px;
+  padding: 0 8px;
   color: var(--light);
 }
+
+/*Edição do box*/
 
 .box {
   background: var(--marron);
@@ -179,11 +187,13 @@ svg {
   flex: 1;
 }
 
+/*Edição header do box*/
 
 .box-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .box-title {
@@ -205,6 +215,54 @@ svg {
   background: var(--light);
   border-radius: 10px;
 }
+
+button.box-btn-menu {
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--light);
+}
+
+.menu-dropdwon {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background: var(--preto);
+  z-index: 999;
+  border-radius: 5px;
+}
+
+.menu-dropdwon .item-menu-dropdwon {
+  display: block;
+  padding: 20px;
+  color: var(--light);
+  font-size: 1em;
+  transition: all 0.4s;
+  cursor: pointer;
+  
+}
+
+.menu-dropdwon .item-menu-dropdwon:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.menu-dropdwon .item-menu-dropdwon:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+.menu-dropdwon .item-menu-dropdwon:hover {
+  background: var(--secondary-color);
+}
+
+button.box-btn-menu:focus + .menu-dropdwon {
+  display: block;
+}
+
+
+
+/*Edição corpo do box*/
 
 .box-body {
   padding: 20px 0;
