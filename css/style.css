@@ -5,7 +5,7 @@
   --verde: #0091d7;
   --preto: #0A0D11;
 
-  --primary-color: var(--marron);
+  --primary-color: var(--marron );
   --secondary-color: var(--roxo);
   --light: var(--branco);
 }
@@ -64,7 +64,7 @@ svg {
 }
 
 /*Formatação topo */
-.menu-principal {
+.header-principal {
   width: 100%;
   background: var(--marron);
   padding: 20px 0;
@@ -73,7 +73,7 @@ svg {
 .brand img {
   width: 50px;
   height: 50px;
-  margin: 0 auto;
+  padding-left: 20px;
 }
 
 .navbar {
@@ -142,7 +142,7 @@ svg {
 /*Formatação area conteudo */
 .area-main {
   width: 100%;
-  padding: 20px 10px 70px 10px;
+  padding: 20px 5px 100px 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -150,9 +150,14 @@ svg {
 
 /* Nav area main*/
 .area-main nav {
+  position: relative;
   flex: 100%;
+  position: absolute;
+  top: 30px;
+  right: 20px;
   padding-bottom: 20px;
 }
+
 .area-main nav ul {
   display: flex;
   justify-content: flex-end;
@@ -163,10 +168,15 @@ svg {
   margin-left: 10px;
 }
 
-.area-main-link {
-  display: block;
+.area-main-btn {
   padding: 0 8px;
+  background: none;
+  border: none;
+  outline: none;
   color: var(--light);
+}
+.btn-menu + .menu-dropdwon {
+  top: 35px;
 }
 
 /*Edição do box*/
@@ -175,7 +185,8 @@ svg {
   background: var(--marron);
   padding: 20px;
   border-radius: 10px;
-  min-width: 300px;
+  max-width: 575.98px;
+  min-width: 250px;
   margin-bottom: 10px;
 }
 
@@ -216,7 +227,7 @@ svg {
   border-radius: 10px;
 }
 
-button.box-btn-menu {
+button.btn-menu {
   position: relative;
   background: none;
   border: none;
@@ -256,7 +267,7 @@ button.box-btn-menu {
   background: var(--secondary-color);
 }
 
-button.box-btn-menu:focus + .menu-dropdwon {
+button.btn-menu:focus + .menu-dropdwon {
   display: block;
 }
 
@@ -358,7 +369,7 @@ input[type="range"]:focus{
   position: relative;
   display: inline-block;
   width: 70px;
-  height: 30px;
+  height: 20px;
   border-radius: 30px;
   margin-right: 1px;
 }
@@ -392,7 +403,7 @@ input[type="range"]:focus{
   width: 35px;
   height: 35px;
   left: -2px;
-  background: var(--preto) url(../img/power.svg) no-repeat center;
+  background: var(--preto) url(../img/power.svg) no-repeat center center;
   -webkit-transition: .4s;
   transition: .4s;
   border-radius: 30px;

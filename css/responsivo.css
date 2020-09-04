@@ -1,5 +1,26 @@
-/*Samm devices*/
+/*Smal devices*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .area-main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .box {
+    min-width: 496px;
+    max-width: 767.98px;
+  }
+}
 
+/*medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .area-main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .box {
+    max-width: 500px;
+    margin: 0 10px;
+  }
 }
 
