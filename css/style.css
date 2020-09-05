@@ -61,6 +61,7 @@ svg {
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 /*Formatação topo */
@@ -142,7 +143,7 @@ svg {
 /*Formatação area conteudo */
 .area-main {
   width: 100%;
-  padding: 20px 5px 100px 5px;
+  padding: 20px 20px 100px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -185,9 +186,8 @@ svg {
   background: var(--marron);
   padding: 20px;
   border-radius: 10px;
-  max-width: 575.98px;
   min-width: 250px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .box-1 {
@@ -197,7 +197,13 @@ svg {
 .box-2 {
   flex: 1;
 }
+.box-3 {
+  flex: 1;
+}
 
+.box-4 {
+  flex: 1;
+}
 /*Edição header do box*/
 
 .box-header {
@@ -325,7 +331,7 @@ input[type="range"] {
   pointer-events: none;
 }
 
-input[type="range"]:focus{
+input:focus{
   outline: none;
 }
 
@@ -343,9 +349,6 @@ input[type="range"]:focus{
   background: var(--preto);
   cursor: pointer;
   box-shadow: -100vw 0 0 100vw var(--secondary-color);
-  -webkit-transition:  width 0.4s, height 0.4s;
-  transition: width 0.4s, height 0.4s;
-  
 }
 
 ::-webkit-slider-thumb:hover {

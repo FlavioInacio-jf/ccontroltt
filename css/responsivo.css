@@ -16,19 +16,32 @@
   .area-main {
     padding-left: 10px;
     padding-right: 10px;
+    align-content: flex-start;
   }
   
   .box {
+    margin: 0 10px 20px 10px;
     max-width: 500px;
-    margin: 0 10px;
+  }
+
+  .grafico {
+    min-width: 768px;
+    max-width: 100%;
+  }
+
+  ::-webkit-slider-thumb {
+    -webkit-transition:  width 0.4s, height 0.4s;
+    transition: width 0.4s, height 0.4s;
   }
 }
 
 /*Larger devices*/
 @media (min-width: 992px) {
+  .container {
+    flex-wrap: nowrap;
+  }
   .header-principal {
     width: 10%;
-    height: 100%;
     background: var(--marron);
     padding: 20px 0;
   }
@@ -36,6 +49,23 @@
   .brand img {
     margin: 0 auto;
     padding-left: 0;
+  }
+
+  .ativo.nav-link:after {
+    content: "";
+    display: none;
+  }
+
+  .ativo.nav-link::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    margin: 0 auto;
+    background: var(--secondary-color);
   }
   
 
@@ -50,12 +80,33 @@
   }
 
   .area-main {
-    width: 86%;
-    padding: 20px;
+    width: auto;
+    height: 100%;
+    padding: 20px 10px;
+    justify-content: flex-start;
+    align-content: flex-start;
   }
 
   .area-main nav {
     position: static;
+  }
+
+  .box {
+    max-width: 500px;
+    margin: 0 10px 20px 10px;
+  }
+
+  .box-header .menu-dropdwon {
+    top: 0px;
+  }
+
+  .grafico {
+    min-width: 400px;
+  }
+
+  ::-webkit-slider-thumb {
+    -webkit-transition:  width 0.4s, height 0.4s;
+    transition: width 0.4s, height 0.4s;
   }
   
 }
