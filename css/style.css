@@ -146,11 +146,11 @@ svg {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* Nav area main*/
 .area-main nav {
-  position: relative;
   flex: 100%;
   position: absolute;
   top: 30px;

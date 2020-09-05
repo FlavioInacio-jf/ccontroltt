@@ -24,3 +24,39 @@
   }
 }
 
+/*Larger devices*/
+@media (min-width: 992px) {
+  .header-principal {
+    width: 10%;
+    height: 100%;
+    background: var(--marron);
+    padding: 20px 0;
+  }
+
+  .brand img {
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  
+
+  .navbar {
+    position: static;
+    padding-top: 40px;
+    border-top: none;
+  }
+
+  .navbar-nav {
+    display: block;
+  }
+
+  .area-main {
+    width: 86%;
+    padding: 20px;
+  }
+
+  .area-main nav {
+    position: static;
+  }
+  
+}
+
