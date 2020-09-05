@@ -103,11 +103,6 @@
   .grafico {
     min-width: 400px;
   }
-
-  ::-webkit-slider-thumb {
-    -webkit-transition:  width 0.4s, height 0.4s;
-    transition: width 0.4s, height 0.4s;
-  }
   
 }
 
