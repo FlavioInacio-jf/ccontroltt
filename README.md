@@ -4,14 +4,9 @@
 
   <a href="https://github.com/FlavioInacio-jf/ccontroltt/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/FlavioInacio-jf/ccontroltt"></a>
   
-  <a href="https://github.com/tgmarinho/README-ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tgmarinho/README-ecoleta">
-  </a>
+  <a href="https://github.com/FlavioInacio-jf/ccontroltt/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/FlavioInacio-jf/ccontroltt"></a>
     
-   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/tgmarinho/README-ecoleta/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/tgmarinho/README-ecoleta?style=social">
-  </a>
+   <a href="https://github.com/FlavioInacio-jf/ccontroltt/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/FlavioInacio-jf/ccontroltt"></a>
 
   <a href="https://rocketseat.com.br">
     <img alt="Feito pela Rocketseat" src="https://img.shields.io/badge/feito%20por-Rocketseat-%237519C1">
@@ -29,7 +24,7 @@
 
 
 <h4 align="center"> 
-	🚧  Ecoleta ♻️ Concluído 🚀 🚧
+	🚧  ControlTT 👨🏾‍💻 Em construção... 🚀 🚧
 </h4>
 
 <p align="center">
