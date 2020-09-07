@@ -2,7 +2,7 @@
  Controle de estufa feito em Html, Css e JavaScript
 
 
-<p align="center">
+<p style="text-align:center">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/FlavioInacio-jf/ccontroltt">
 
@@ -25,8 +25,8 @@
     <img alt="Stargazers" src="https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=flat&logo=ghost">
     </a>
   
- 
 </p>
+
 <h1 align="center">
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" />
 </h1>
