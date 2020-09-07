@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-    🌱 Seu marketplace de coleta de resíduos. Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente. 💚
+    🌱 Descrição 💚
 </h3>
 
 <p align="center">
@@ -82,9 +82,9 @@ O layout da aplicação está disponível no na pasta 'design':
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/web.svg" width="400px">
+  <img alt="ControllTT" title="#" src="./assets/web.svg" width="400px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/sucesso-web.svg" width="400px">
+  <img alt="ControlTT" title="#" src="./assets/sucesso-web.svg" width="400px">
 </p>
 
 ---
@@ -171,8 +171,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Flávio Inácio</b></sub></a>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:tgmarinho@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Flávio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fl%C3%A1vio-in%C3%A1cio//)](https://www.linkedin.com/in/fl%C3%A1vio-in%C3%A1cio/) 
+[![Gmail Badge](https://img.shields.io/badge/-jflavioinacio22@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jflavioinacio22@gmail.com)](mailto:jflavioinacio22@gmail.com)
 
 ---
 
