@@ -2,7 +2,7 @@
  Controle de estufa feito em Html, Css e JavaScript
 
 
-<p style="text-align:center">
+<p align="justify">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/FlavioInacio-jf/ccontroltt">
 
@@ -27,9 +27,10 @@
   
 </p>
 
-<h1 align="center">
+<h1 align="justify">
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" />
 </h1>
+
 
 <h4 align="center"> 
 	🚧  Ecoleta ♻️ Concluído 🚀 🚧
