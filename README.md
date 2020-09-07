@@ -1,8 +1,4 @@
-# controle estufa mqtt
- Controle de estufa feito em Html, Css e JavaScript
-
-
-<p align="justify">
+<p align="center">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/FlavioInacio-jf/ccontroltt">
 
@@ -50,11 +46,7 @@
 
 ## 💻 Sobre o projeto
 
-♻️ Ecoleta - é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
-
-
-Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).
-O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+♻️ Controle de estufa feito em Html, Css e JavaScript.
 
 ---
 
