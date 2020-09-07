@@ -2,24 +2,21 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/FlavioInacio-jf/ccontroltt">
 
-  <a href="https://github.com/FlavioInacio-jf/ccontroltt/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/FlavioInacio-jf/ccontroltt"></a>
-  
-  <a href="https://github.com/FlavioInacio-jf/ccontroltt/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/FlavioInacio-jf/ccontroltt"></a>
-    
-   <a href="https://github.com/FlavioInacio-jf/ccontroltt/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/FlavioInacio-jf/ccontroltt"></a>
-
-  <a href="https://rocketseat.com.br">
-    <img alt="Feito pela Rocketseat" src="https://img.shields.io/badge/feito%20por-Rocketseat-%237519C1">
+  <a href="https://github.com/FlavioInacio-jf/ccontroltt/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/FlavioInacio-jf/ccontroltt">
   </a>
   
-  <a href="https://blog.rocketseat.com.br/">
-    <img alt="Stargazers" src="https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=flat&logo=ghost">
-    </a>
-  
+  <a href="https://github.com/FlavioInacio-jf/ccontroltt/network">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/FlavioInacio-jf/ccontroltt">
+  </a>
+    
+   <a href="https://github.com/FlavioInacio-jf/ccontroltt/blob/master/LICENSE">
+    <img alt="GitHub license" src="https://img.shields.io/github/license/FlavioInacio-jf/ccontroltt">
+  </a>
 </p>
 
 <h1 align="justify">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./img/print.png" />
 </h1>
 
 

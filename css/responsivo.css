@@ -42,6 +42,8 @@
   }
   .header-principal {
     width: 10%;
+    height: 100%;
+    position: fixed;
     background: var(--marron);
     padding: 20px 0;
   }
@@ -82,12 +84,14 @@
   .area-main {
     width: auto;
     height: 100%;
+    margin-left: 10%;
     padding: 20px 10px;
     justify-content: flex-start;
     align-content: flex-start;
   }
 
   .area-main nav {
+    padding-bottom: 20px;
     position: static;
   }
 
