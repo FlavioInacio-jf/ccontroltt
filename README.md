@@ -1,3 +1,11 @@
+<h1 align="center">
+     📱 <a href="#" alt="site do controlltt"> ControllTT </a>
+</h1>
+
+<h3 align="center">
+    🌱 Seu marketplace de coleta de resíduos. Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente. 💚
+</h3>
+
 <p align="center">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/FlavioInacio-jf/ccontroltt">
@@ -15,9 +23,6 @@
   </a>
 </p>
 
-<h1 align="justify">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./img/print.png" />
-</h1>
 
 
 <h4 align="center"> 
