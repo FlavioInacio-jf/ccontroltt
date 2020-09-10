@@ -7,6 +7,9 @@
 </h3>
 
 <p align="center">
+	
+  <img src="https://img.shields.io/static/v1?label=HTML&message=70.1%&color=F16529&style=<STYLE>&logo=<LOGO>">
+  <img src="https://img.shields.io/static/v1?label=CSS&message=29.9%&color=D4EDDA&style=<STYLE>&logo=<LOGO>">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/FlavioInacio-jf/ccontroltt">
 
@@ -42,7 +45,7 @@
 
 ## 💻 Sobre o projeto
 
-♻️ Controle de estufa feito em Html, Css e JavaScript.
+♻️ Controle de estufa feito em Html, Css.
 
 ---
 
@@ -71,7 +74,7 @@
 O layout da aplicação está disponível no na pasta 'design':
 
 
-### Mobile
+### Layout Mobile
 
 <p align="center">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="200px">
@@ -79,7 +82,7 @@ O layout da aplicação está disponível no na pasta 'design':
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
 </p>
 
-### Web
+### Layout Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="ControllTT" title="#" src="./assets/web.svg" width="400px">
@@ -98,12 +101,8 @@ Este projeto é divido em três partes:
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+[Git](https://git-scm.com). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-
-<p align="center">
-  <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
 
 
 #### 🧭 Rodando a aplicação web (Frontend)
@@ -118,15 +117,6 @@ $ cd README-ecoleta
 
 # Vá para a pasta da aplicação Front End
 $ cd web
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-
 ```
 
 ---
@@ -135,14 +125,8 @@ $ npm run start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
-
--   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
--   **[React Icons](https://react-icons.github.io/react-icons/)**
--   **[Axios](https://github.com/axios/axios)**
--   **[Leaflet](https://react-leaflet.js.org/en/)**
--   **[React Leaflet](https://react-leaflet.js.org/)**
--   **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
+#### **Website**  ([Html](https://reactjs.org/)  +  [Css](https://www.typescriptlang.org/))
+- 
 
 #### [](https://github.com/FlavioInacio-jf/ControlTT#utilit%C3%A1rios)**Utilitários**
 
@@ -164,15 +148,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 ## 🦸 Autor
-
-<a href="https://blog.rocketseat.com.br/author/thiago/">
- <img style="border-radius: 50%;" src="Link foto" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://i.ibb.co/B26fQkK/capture-Fl-vio-In-cio.jpg" width="100px;" alt=""/>
  <br />
- <sub><b>Flávio Inácio</b></sub></a>
+ <sub><b>Flávio Inácio</b></sub>
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Flávio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fl%C3%A1vio-in%C3%A1cio//)](https://www.linkedin.com/in/fl%C3%A1vio-in%C3%A1cio/) 
-[![Gmail Badge](https://img.shields.io/badge/-jflavioinacio22@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jflavioinacio22@gmail.com)](mailto:jflavioinacio22@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Flávio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fl%C3%A1vio-in%C3%A1cio/)](https://www.linkedin.com/in/fl%C3%A1vio-in%C3%A1cio/) 
+[![Gmail Badge](https://img.shields.io/badge/-jflavioinacio22@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jflavioinacio@gmail.com)](mailto:jflavioinacio22@gmail.com)
 
 ---
 
@@ -180,4 +162,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
----
+Feit por Flávio Inácio 👋🏽 [Entre em contato!](https://www.linkedin.com/in/fl%C3%A1vio-in%C3%A1cio/)
