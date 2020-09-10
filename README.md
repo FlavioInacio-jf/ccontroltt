@@ -77,17 +77,14 @@ O layout da aplicação está disponível no na pasta 'design':
 ### Layout Mobile
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="200px">
-
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="assets/print-mobile.png" width="500px">
 </p>
 
 ### Layout Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="ControllTT" title="#" src="./assets/web.svg" width="400px">
+  <img alt="ControllTT" title="#" src="./assets/print-desktop.png" width="800px">
 
-  <img alt="ControlTT" title="#" src="./assets/sucesso-web.svg" width="400px">
 </p>
 
 ---
