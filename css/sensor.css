@@ -1,0 +1,18 @@
+table.table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0px;
+  
+}
+
+.table-header tr th:nth-child(odd) {
+  border: 2px solid red;
+  border-right: none;
+  padding: 10px 0;
+}
+
+.table-header tr th:nth-child(even) {
+  border: 2px solid red;
+  border-left: none;
+  padding: 10px 0;
+}
