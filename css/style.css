@@ -57,6 +57,7 @@ svg {
 .container {
   width: 100%;
   margin: 0 auto;
+  min-width: 300px;
   background: var(--preto);
   position: relative;
   display: flex;
@@ -144,9 +145,7 @@ svg {
   width: 100%;
   padding: 20px 5px 100px 5px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
 }
 
 /* Nav area main*/
@@ -184,24 +183,9 @@ svg {
   background: var(--marron);
   padding: 20px;
   border-radius: 10px;
-  min-width: 250px;
   margin: 0 5px 20px 5px;
 }
 
-.box-1 {
-  flex: 1;
-}
-
-.box-2 {
-  flex: 1;
-}
-.box-3 {
-  flex: 1;
-}
-
-.box-4 {
-  flex: 1;
-}
 /*Edição header do box*/
 
 .box-header {
