@@ -314,6 +314,7 @@ input[type="range"] {
 }
 
 input:focus{
+  color: none;
   outline: none;
 }
 
