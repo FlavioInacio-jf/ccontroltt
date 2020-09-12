@@ -127,7 +127,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### [](https://github.com/FlavioInacio-jf/ControlTT#utilit%C3%A1rios)**Utilitários**
 
--   Protótipo:  **[Adobe XD](https://www.adobe.com/br/products/xd.html)**  →  **[Protótipo (Ecoleta)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
+-   Protótipo:  **[Adobe XD](https://www.adobe.com/br/products/xd.html)** 
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
 -   Ícones:  **[Bootstrap Icons](https://icons.getbootstrap.com/)**
 -   Fontes:  **[Arial](https://www.fonts.com/font/monotype/arial)**,  **[Helvetica](https://www.fonts.com/font/linotype/helvetica?QueryFontType=Web&src=GoogleWebFonts)**
