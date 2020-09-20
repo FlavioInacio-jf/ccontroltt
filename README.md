@@ -1,5 +1,5 @@
 <h1 align="center">
-     📱 <a href="#" alt="site do controlltt"> ControllTT </a>
+     📱 <a href="#" alt="site do controltt"> ControlTT </a>
 </h1>
 
 <h3 align="center">
