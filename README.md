@@ -51,21 +51,7 @@
 
 ## ⚙️ Funcionalidades
 
-- [x] Empresas ou entidades podem se cadastrar na plataforma web enviando:
-  - [x] uma imagem do ponto de coleta
-  - [x] nome da entidade, email e whatsapp
-  - [x] e o endereço para que ele possa aparecer no mapa
-  - [x] além de selecionar um ou mais ítens de coleta: 
-    - lâmpadas
-    - pilhas e baterias
-    - papéis e papelão
-    - resíduos eletrônicos
-    - resíduos orgânicos
-    - óleo de cozinha
-
-- [x] Os usuários tem acesso ao aplicativo móvel, onde podem:
-  - [x] navegar pelo mapa para ver as instituições cadastradas
-  - [x] entrar em contato com a entidade através do E-mail ou do WhatsApp
+- [x]
 
 ---
 
@@ -77,7 +63,7 @@ O layout da aplicação está disponível no na pasta 'design':
 ### Layout Mobile
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="assets/print-mobile.png" width="500px">
+  <img alt="Print Mobile" title="#print-mobile" src="assets/print-mobile.png" width="500px">
 </p>
 
 ### Layout Web
@@ -107,13 +93,16 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+$ git clone git@github.com:FlavioInacio-jf/README-ccontroltt.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd README-ecoleta
+$ cd README-ccontroltt
 
 # Vá para a pasta da aplicação Front End
 $ cd web
+
+## Vá para a pasta da aplicação Front End
+$ Clique em index.html
 ```
 
 ---
@@ -122,13 +111,13 @@ $ cd web
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Website**  ([Html](https://reactjs.org/)  +  [Css](https://www.typescriptlang.org/))
+#### **Website**  ([Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)  +  [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS))
 - 
 
 #### [](https://github.com/FlavioInacio-jf/ControlTT#utilit%C3%A1rios)**Utilitários**
 
 -   Protótipo:  **[Adobe XD](https://www.adobe.com/br/products/xd.html)** 
--   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
 -   Ícones:  **[Bootstrap Icons](https://icons.getbootstrap.com/)**
 -   Fontes:  **[Arial](https://www.fonts.com/font/monotype/arial)**,  **[Helvetica](https://www.fonts.com/font/linotype/helvetica?QueryFontType=Web&src=GoogleWebFonts)**
 
